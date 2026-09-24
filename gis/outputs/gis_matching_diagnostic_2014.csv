@@ -1,0 +1,803 @@
+STATE_UT,DISTRICT,YEAR,TOTAL_IPC,GIS_EXACT_MATCH
+A&N Islands,Nicobar,2014,31,False
+A&N Islands,North & Middle Andaman,2014,159,False
+A&N Islands,South Andaman,2014,556,False
+Andhra Pradesh,Anantapur,2014,8376,True
+Andhra Pradesh,Chittoor,2014,5374,True
+Andhra Pradesh,Cuddapah,2014,5803,False
+Andhra Pradesh,East Godavari,2014,7630,True
+Andhra Pradesh,Guntakal Railway,2014,490,False
+Andhra Pradesh,Guntur,2014,6897,True
+Andhra Pradesh,Guntur Urban,2014,5798,False
+Andhra Pradesh,Krishna,2014,7078,True
+Andhra Pradesh,Kurnool,2014,8398,True
+Andhra Pradesh,Nellore,2014,8175,False
+Andhra Pradesh,Prakasham,2014,6367,False
+Andhra Pradesh,Rajahmundry,2014,2430,False
+Andhra Pradesh,Srikakulam,2014,4727,True
+Andhra Pradesh,Tirupathi Urban,2014,3651,False
+Andhra Pradesh,Vijayawada City,2014,7876,False
+Andhra Pradesh,Vijayawada Railway,2014,1223,False
+Andhra Pradesh,Visakha Rural,2014,3028,False
+Andhra Pradesh,Visakhapatnam,2014,7728,False
+Andhra Pradesh,Vizianagaram,2014,5013,True
+Andhra Pradesh,West Godavari,2014,8542,True
+Arunachal Pradesh,Anjaw,2014,29,False
+Arunachal Pradesh,Changlang,2014,180,False
+Arunachal Pradesh,Crime Branch,2014,4,False
+Arunachal Pradesh,Dibang Valley,2014,4,False
+Arunachal Pradesh,Kameng East,2014,148,False
+Arunachal Pradesh,Kameng West,2014,140,False
+Arunachal Pradesh,Kukung Kumey,2014,49,False
+Arunachal Pradesh,Lohit,2014,280,False
+Arunachal Pradesh,Longding,2014,92,False
+Arunachal Pradesh,Lower Dibang Valley,2014,75,False
+Arunachal Pradesh,Papum Pare City,2014,661,False
+Arunachal Pradesh,Papum Pare Rural,2014,96,False
+Arunachal Pradesh,Siang East,2014,245,False
+Arunachal Pradesh,Siang Upper,2014,40,False
+Arunachal Pradesh,Siang West,2014,249,False
+Arunachal Pradesh,Subansiri Lower,2014,160,False
+Arunachal Pradesh,Subansiri Upper,2014,234,False
+Arunachal Pradesh,Tawang,2014,40,False
+Arunachal Pradesh,Tirap,2014,117,False
+Assam,Barpeta,2014,9056,True
+Assam,Baska,2014,853,False
+Assam,Bongaigaon,2014,1789,True
+Assam,Cachar,2014,5640,True
+Assam,Chirang,2014,863,True
+Assam,Darrang,2014,3901,True
+Assam,Dhemaji,2014,1068,True
+Assam,Dhubri,2014,7153,True
+Assam,Dibrugarh,2014,3108,True
+Assam,G. R. P.,2014,319,False
+Assam,Goalpara,2014,2623,True
+Assam,Golaghat,2014,2932,True
+Assam,Guwahati City,2014,12216,False
+Assam,Hailakandi,2014,1940,True
+Assam,Jorhat,2014,3732,True
+Assam,Kamrup,2014,2785,True
+Assam,Karbi Anglong,2014,960,True
+Assam,Karimganj,2014,2827,True
+Assam,Kokrajhar,2014,1419,True
+Assam,Lakhimpur,2014,2872,True
+Assam,Morigaon,2014,2557,False
+Assam,N. C. Hills,2014,299,False
+Assam,Nagaon,2014,8399,True
+Assam,Nalbari,2014,2122,True
+Assam,Sibsagar,2014,4236,False
+Assam,Sonitpur,2014,3906,True
+Assam,Tinsukia,2014,3309,True
+Assam,Udalguri,2014,1453,True
+Bihar,Anti Terrorist Squad,2014,0,False
+Bihar,Araria,2014,3898,True
+Bihar,Arwal,2014,991,True
+Bihar,Aurangabad,2014,3079,True
+Bihar,Bagaha,2014,1860,False
+Bihar,Banka,2014,2505,True
+Bihar,Begusarai,2014,5196,True
+Bihar,Bettiah,2014,4712,False
+Bihar,Bhabhua,2014,2267,False
+Bihar,Bhagalpur,2014,4763,True
+Bihar,Bhojpur,2014,5488,True
+Bihar,Buxar,2014,3284,True
+Bihar,Darbhanga,2014,5368,True
+Bihar,Economic Offences Unit,2014,11,False
+Bihar,Gaya,2014,7232,True
+Bihar,Gopalganj,2014,3879,True
+Bihar,Jamalpur Railway,2014,298,False
+Bihar,Jamui,2014,1699,True
+Bihar,Jehanabad,2014,1968,True
+Bihar,Katihar,2014,3415,True
+Bihar,Katihar Railway,2014,313,False
+Bihar,Khagaria,2014,2589,True
+Bihar,Kishanganj,2014,1982,True
+Bihar,Lakhisarai,2014,1728,True
+Bihar,Madhepura,2014,2426,True
+Bihar,Madhubani,2014,5113,True
+Bihar,Motihari,2014,9490,False
+Bihar,Munger,2014,1778,True
+Bihar,Muzaffarpur,2014,9373,True
+Bihar,Muzaffarpur Railway,2014,596,False
+Bihar,Nalanda,2014,6871,True
+Bihar,Naugachia,2014,1732,False
+Bihar,Nawadah,2014,3408,False
+Bihar,Patna,2014,19804,True
+Bihar,Patna Railway,2014,1216,False
+Bihar,Purnea,2014,5723,False
+Bihar,Rohtas,2014,5197,True
+Bihar,Saharsa,2014,3189,True
+Bihar,Samastipur,2014,5664,True
+Bihar,Saran,2014,5586,True
+Bihar,Sheikhpura,2014,1325,True
+Bihar,Sheohar,2014,778,True
+Bihar,Sitamarhi,2014,5453,True
+Bihar,Siwan,2014,5003,True
+Bihar,Supaul,2014,3008,True
+Bihar,Vaishali,2014,6337,True
+Chandigarh,Chandigarh,2014,3221,True
+Chhattisgarh,Balod,2014,1479,True
+Chhattisgarh,Balodbazar,2014,2578,False
+Chhattisgarh,Balrampur,2014,1333,True
+Chhattisgarh,Bemetra,2014,1645,False
+Chhattisgarh,Bilaspur,2014,4870,True
+Chhattisgarh,Bizapur,2014,343,False
+Chhattisgarh,Dantewara,2014,442,False
+Chhattisgarh,Dhamtari,2014,1300,True
+Chhattisgarh,Durg,2014,6677,True
+Chhattisgarh,G. R. P. Raipur,2014,400,False
+Chhattisgarh,Gariyaband,2014,948,True
+Chhattisgarh,Jagdalpur,2014,1580,False
+Chhattisgarh,Janjgir,2014,3401,False
+Chhattisgarh,Jashpur,2014,1225,True
+Chhattisgarh,Kabirdham,2014,1573,True
+Chhattisgarh,Kanker,2014,1253,True
+Chhattisgarh,Kondagaon,2014,782,True
+Chhattisgarh,Korba,2014,2572,True
+Chhattisgarh,Koriya,2014,1707,False
+Chhattisgarh,Mahasamund,2014,2469,True
+Chhattisgarh,Mungali,2014,938,False
+Chhattisgarh,Narayanpur,2014,222,True
+Chhattisgarh,Raigarh,2014,3074,True
+Chhattisgarh,Raipur,2014,8306,True
+Chhattisgarh,Rajnandgaon,2014,3255,True
+Chhattisgarh,Sarguja,2014,1835,False
+Chhattisgarh,Sukma,2014,240,True
+Chhattisgarh,Surajpur,2014,1753,True
+D&N Haveli,D&N Haveli,2014,277,False
+Daman & Diu,Daman,2014,198,False
+Daman & Diu,Diu,2014,35,False
+Delhi UT,Central,2014,8932,False
+Delhi UT,Crime Branch,2014,52,False
+Delhi UT,EOW,2014,85,False
+Delhi UT,East,2014,18642,False
+Delhi UT,IGI Airport,2014,453,False
+Delhi UT,Metro,2014,2309,False
+Delhi UT,New Delhi,2014,2421,False
+Delhi UT,North,2014,8201,False
+Delhi UT,North-East,2014,16904,False
+Delhi UT,North-West,2014,13251,False
+Delhi UT,Outer,2014,20320,False
+Delhi UT,RAILWAY,2014,1816,False
+Delhi UT,SPUWAC,2014,161,False
+Delhi UT,South,2014,17371,False
+Delhi UT,South-East,2014,14914,False
+Delhi UT,South-West,2014,11320,False
+Delhi UT,Spl Cell,2014,14,False
+Delhi UT,Vigilance,2014,0,False
+Delhi UT,West,2014,18488,False
+Goa,C. I. D.,2014,112,False
+Goa,North Goa,2014,2805,True
+Goa,South Goa,2014,1549,True
+Gujarat,Ahmedabad City,2014,15286,False
+Gujarat,Ahmedabad Rural,2014,4266,False
+Gujarat,Amreli,2014,1818,True
+Gujarat,Anand,2014,3415,True
+Gujarat,Arvalli,2014,3841,True
+Gujarat,Banaskantha,2014,4464,False
+Gujarat,Bharuch,2014,2981,True
+Gujarat,Bhavnagar,2014,3589,True
+Gujarat,Botad,2014,783,True
+Gujarat,C. I. D. Crime,2014,8,False
+Gujarat,Chhotaudepur,2014,1144,True
+Gujarat,Dahod,2014,2594,False
+Gujarat,Dang,2014,283,True
+Gujarat,Devbhumi Dwarka,2014,1106,True
+Gujarat,Gandhinagar,2014,7451,True
+Gujarat,Gir Somnath,2014,1405,True
+Gujarat,Jamnagar,2014,3752,True
+Gujarat,Junagadh,2014,2497,True
+Gujarat,Kachchh East(G),2014,3349,False
+Gujarat,Kachchh West(B),2014,2269,False
+Gujarat,Kheda,2014,3614,True
+Gujarat,Mahisagar,2014,1040,True
+Gujarat,Mehsana,2014,6587,False
+Gujarat,Morbi,2014,2332,True
+Gujarat,Narmada,2014,664,True
+Gujarat,Navsari,2014,1730,True
+Gujarat,Panchmahal,2014,2634,False
+Gujarat,Patan,2014,2117,True
+Gujarat,Porbandar,2014,913,True
+Gujarat,Rajkot City,2014,3516,False
+Gujarat,Rajkot Rural,2014,2891,False
+Gujarat,Sabarkantha,2014,5647,False
+Gujarat,Surat City,2014,4397,False
+Gujarat,Surat Rural,2014,3810,False
+Gujarat,Surendranagar,2014,2476,True
+Gujarat,Tapi,2014,986,True
+Gujarat,Vadodara City,2014,12651,False
+Gujarat,Vadodara Rural,2014,2896,False
+Gujarat,Valsad,2014,3072,True
+Gujarat,W.Rly  Ahmedabad,2014,454,False
+Gujarat,W.Rly Vadodara,2014,657,False
+Haryana,Ambala (Rural),2014,1098,False
+Haryana,Ambala (Urban),2014,1977,False
+Haryana,Bhiwani,2014,4604,True
+Haryana,Faridabad,2014,6000,True
+Haryana,Fatehabad,2014,2431,True
+Haryana,G. R. P.,2014,1139,False
+Haryana,Gurgaon,2014,11444,False
+Haryana,Hissar,2014,5608,False
+Haryana,Irrigation & Power,2014,192,False
+Haryana,Jhajjar,2014,2100,True
+Haryana,Jind,2014,2892,True
+Haryana,Kaithal,2014,1922,True
+Haryana,Karnal,2014,4047,True
+Haryana,Kurukshetra,2014,2581,True
+Haryana,Mahendergarh,2014,2262,False
+Haryana,Mewat,2014,2414,False
+Haryana,Palwal,2014,3247,True
+Haryana,Panchkula,2014,1594,True
+Haryana,Panipat,2014,4654,True
+Haryana,Rewari,2014,2781,True
+Haryana,Rohtak,2014,3820,True
+Haryana,Sirsa,2014,3482,True
+Haryana,Sonipat,2014,4311,True
+Haryana,Yamunanagar,2014,3347,True
+Himachal Pradesh,Baddi,2014,651,False
+Himachal Pradesh,Bilaspur,2014,1185,True
+Himachal Pradesh,C. I. D.,2014,4,False
+Himachal Pradesh,Chamba,2014,761,True
+Himachal Pradesh,G. R. P.,2014,9,False
+Himachal Pradesh,Hamirpur,2014,845,True
+Himachal Pradesh,Kangra,2014,2698,True
+Himachal Pradesh,Kinnaur,2014,211,True
+Himachal Pradesh,Kullu,2014,914,True
+Himachal Pradesh,Lahaul & Spiti,2014,84,False
+Himachal Pradesh,Mandi,2014,1939,True
+Himachal Pradesh,Shimla,2014,1957,True
+Himachal Pradesh,Sirmaur,2014,872,True
+Himachal Pradesh,Solan,2014,947,True
+Himachal Pradesh,Una,2014,1083,True
+Jammu & Kashmir,Anantnag,2014,1307,True
+Jammu & Kashmir,Awantipora,2014,389,False
+Jammu & Kashmir,Bandipora,2014,618,True
+Jammu & Kashmir,Baramulla,2014,1110,True
+Jammu & Kashmir,Budgam,2014,1026,True
+Jammu & Kashmir,Crime Jammu,2014,14,False
+Jammu & Kashmir,Crime Srinagar,2014,43,False
+Jammu & Kashmir,Doda,2014,667,True
+Jammu & Kashmir,Ganderbal,2014,473,True
+Jammu & Kashmir,Handwara,2014,562,False
+Jammu & Kashmir,Jammu,2014,4238,True
+Jammu & Kashmir,Kargil,2014,105,False
+Jammu & Kashmir,Kathua,2014,1289,True
+Jammu & Kashmir,Kishtwar,2014,388,True
+Jammu & Kashmir,Kulgam,2014,856,True
+Jammu & Kashmir,Kupwara,2014,710,True
+Jammu & Kashmir,Leh,2014,166,False
+Jammu & Kashmir,Poonch,2014,842,True
+Jammu & Kashmir,Pulwama,2014,354,True
+Jammu & Kashmir,Railways Jammu,2014,16,False
+Jammu & Kashmir,Railways Kashmir,2014,13,False
+Jammu & Kashmir,Railways Katra,2014,6,False
+Jammu & Kashmir,Rajouri,2014,1751,True
+Jammu & Kashmir,Ramban,2014,674,True
+Jammu & Kashmir,Reasi,2014,753,True
+Jammu & Kashmir,Samba,2014,653,True
+Jammu & Kashmir,Shopian,2014,501,True
+Jammu & Kashmir,Sopore,2014,634,False
+Jammu & Kashmir,Srinagar,2014,2533,True
+Jammu & Kashmir,Udhampur,2014,1157,True
+Jharkhand,Bokaro,2014,3145,True
+Jharkhand,Chaibasa,2014,954,False
+Jharkhand,Chatra,2014,1284,True
+Jharkhand,Deoghar,2014,2300,True
+Jharkhand,Dhanbad,2014,4929,True
+Jharkhand,Dhanbad Railway,2014,365,False
+Jharkhand,Dumka,2014,1592,True
+Jharkhand,Garhwa,2014,2582,True
+Jharkhand,Giridih,2014,3491,True
+Jharkhand,Godda,2014,1710,True
+Jharkhand,Gumla,2014,1200,True
+Jharkhand,Hazaribagh,2014,3039,True
+Jharkhand,Jamshedpur,2014,3985,False
+Jharkhand,Jamshedpur Railway,2014,188,False
+Jharkhand,Jamtara,2014,1032,True
+Jharkhand,Khunti,2014,419,True
+Jharkhand,Koderma,2014,1344,True
+Jharkhand,Latehar,2014,859,True
+Jharkhand,Lohardagga,2014,536,False
+Jharkhand,Pakur,2014,839,True
+Jharkhand,Palamu,2014,2556,True
+Jharkhand,Ramgarh,2014,1488,True
+Jharkhand,Ranchi,2014,2447,True
+Jharkhand,Sahebganj,2014,1522,True
+Jharkhand,Saraikela,2014,1108,False
+Jharkhand,Simdega,2014,421,True
+Karnataka,Bagalkot,2014,2131,False
+Karnataka,Ballari,2014,3304,True
+Karnataka,Belagavi City,2014,2396,False
+Karnataka,Belagavi District,2014,4851,False
+Karnataka,Bengaluru City,2014,31892,False
+Karnataka,Bengaluru District,2014,5567,False
+Karnataka,Bidar,2014,4333,True
+Karnataka,Chamarajnagar,2014,1607,False
+Karnataka,Chikkaballapura,2014,2405,True
+Karnataka,Chikkamagaluru,2014,2878,True
+Karnataka,Chitradurga,2014,3981,True
+Karnataka,Dakshina Kannada,2014,2087,True
+Karnataka,Davanagere,2014,3635,False
+Karnataka,Dharwad,2014,1219,True
+Karnataka,Gadag,2014,1109,True
+Karnataka,Hassan,2014,5182,True
+Karnataka,Haveri,2014,2201,True
+Karnataka,Hubballi Dharwad City,2014,1936,False
+Karnataka,K.G.F.,2014,777,False
+Karnataka,K.Railways,2014,948,False
+Karnataka,Kalaburgi,2014,4448,False
+Karnataka,Kodagu,2014,1824,True
+Karnataka,Kolar,2014,2188,True
+Karnataka,Koppal,2014,1883,True
+Karnataka,Mandya,2014,4984,True
+Karnataka,Mangaluru City,2014,3039,False
+Karnataka,Mysuru City,2014,2766,False
+Karnataka,Mysuru District,2014,4118,False
+Karnataka,Raichur,2014,3128,True
+Karnataka,Ramanagar,2014,4249,False
+Karnataka,Shimoga,2014,6043,False
+Karnataka,Tumakuru,2014,4523,True
+Karnataka,Udupi,2014,2496,True
+Karnataka,Uttara Kannada,2014,2783,True
+Karnataka,Vijayapura,2014,2931,True
+Karnataka,Yadgiri,2014,1496,False
+Kerala,Alapuzha,2014,11033,False
+Kerala,Crime Branch,2014,185,False
+Kerala,Ernakulam Commr.,2014,17088,False
+Kerala,Ernakulam Rural,2014,20185,False
+Kerala,Idukki,2014,5264,True
+Kerala,Kannur,2014,6716,True
+Kerala,Kasargod,2014,5016,False
+Kerala,Kollam Commr.,2014,9314,False
+Kerala,Kollam Rural,2014,7910,False
+Kerala,Kottayam,2014,17769,True
+Kerala,Kozhikode Commr.,2014,4665,False
+Kerala,Kozhikode Rural,2014,5391,False
+Kerala,Malappuram,2014,18057,True
+Kerala,Palakkad,2014,14780,True
+Kerala,Pathanamthitta,2014,8533,True
+Kerala,Railways,2014,508,False
+Kerala,Thrissur Commr.,2014,6548,False
+Kerala,Thrissur Rural,2014,20117,False
+Kerala,Trivandrum Commr.,2014,12504,False
+Kerala,Trivandrum Rural,2014,12024,False
+Kerala,Wayanadu,2014,3182,False
+Lakshadweep,Lakshadweep,2014,81,False
+Madhya Pradesh,Agar,2014,1652,False
+Madhya Pradesh,Alirajpur,2014,1161,True
+Madhya Pradesh,Anuppur,2014,2666,True
+Madhya Pradesh,Ashok Nagar,2014,3366,False
+Madhya Pradesh,Balaghat,2014,3507,True
+Madhya Pradesh,Barwani,2014,2857,True
+Madhya Pradesh,Betul,2014,6822,True
+Madhya Pradesh,Bhind,2014,4870,True
+Madhya Pradesh,Bhopal,2014,16094,True
+Madhya Pradesh,Bhopal Railway,2014,2067,False
+Madhya Pradesh,Burhanpur,2014,1958,True
+Madhya Pradesh,Chhatarpur,2014,4463,True
+Madhya Pradesh,Chhindwara,2014,6149,True
+Madhya Pradesh,Cyber Cell,2014,0,False
+Madhya Pradesh,Damoh,2014,2702,True
+Madhya Pradesh,Datia,2014,2783,True
+Madhya Pradesh,Dewas,2014,7426,True
+Madhya Pradesh,Dhar,2014,7479,True
+Madhya Pradesh,Dindori,2014,3851,True
+Madhya Pradesh,Guna,2014,4539,True
+Madhya Pradesh,Gwalior,2014,12958,True
+Madhya Pradesh,Harda,2014,2016,True
+Madhya Pradesh,Hoshangabad,2014,4870,False
+Madhya Pradesh,Indore,2014,23992,True
+Madhya Pradesh,Indore Railway,2014,552,False
+Madhya Pradesh,Jabalpur,2014,12918,True
+Madhya Pradesh,Jabalpur Railway,2014,1159,False
+Madhya Pradesh,Jhabua,2014,2990,True
+Madhya Pradesh,Katni,2014,3670,True
+Madhya Pradesh,Khandwa,2014,4011,False
+Madhya Pradesh,Khargone,2014,4533,True
+Madhya Pradesh,Mandla,2014,2220,True
+Madhya Pradesh,Mandsaur,2014,5565,True
+Madhya Pradesh,Morena,2014,5944,True
+Madhya Pradesh,Narsinghpur,2014,3777,True
+Madhya Pradesh,Neemuch,2014,2986,True
+Madhya Pradesh,Panna,2014,2063,True
+Madhya Pradesh,Raisen,2014,5204,True
+Madhya Pradesh,Rajgarh,2014,5529,True
+Madhya Pradesh,Ratlam,2014,4560,True
+Madhya Pradesh,Rewa,2014,6678,True
+Madhya Pradesh,Sagar,2014,7674,True
+Madhya Pradesh,Satna,2014,7539,True
+Madhya Pradesh,Sehore,2014,5006,True
+Madhya Pradesh,Seoni,2014,3484,True
+Madhya Pradesh,Shahdol,2014,5240,True
+Madhya Pradesh,Shajapur,2014,3754,True
+Madhya Pradesh,Sheopur,2014,1578,True
+Madhya Pradesh,Shivpuri,2014,5836,True
+Madhya Pradesh,Sidhi,2014,3576,True
+Madhya Pradesh,Singrauli,2014,3349,True
+Madhya Pradesh,Tikamgarh,2014,3458,True
+Madhya Pradesh,Ujjain,2014,9141,True
+Madhya Pradesh,Umaria,2014,2172,True
+Madhya Pradesh,Vidisha,2014,6009,True
+Maharashtra,Ahmednagar,2014,6957,True
+Maharashtra,Akola,2014,4433,True
+Maharashtra,Amravati Commr.,2014,3338,False
+Maharashtra,Amravati Rural,2014,6948,False
+Maharashtra,Aurangabad Commr.,2014,4821,False
+Maharashtra,Aurangabad Rural,2014,4237,False
+Maharashtra,Beed,2014,4864,True
+Maharashtra,Bhandara,2014,2003,True
+Maharashtra,Buldhana,2014,4453,True
+Maharashtra,Chandrapur,2014,4441,True
+Maharashtra,Dhule,2014,2818,True
+Maharashtra,Gadchiroli,2014,875,True
+Maharashtra,Gondia,2014,1836,True
+Maharashtra,Hingoli,2014,1761,True
+Maharashtra,Jalgaon,2014,6531,True
+Maharashtra,Jalna,2014,3372,True
+Maharashtra,Kolhapur,2014,4942,True
+Maharashtra,Latur,2014,4070,True
+Maharashtra,Mumbai Commr.,2014,40361,False
+Maharashtra,Mumbai Railway,2014,3141,False
+Maharashtra,Nagpur Commr.,2014,10359,False
+Maharashtra,Nagpur Railway,2014,1768,False
+Maharashtra,Nagpur Rural,2014,4564,False
+Maharashtra,Nanded,2014,4600,True
+Maharashtra,Nandurbar,2014,1425,True
+Maharashtra,Nasik Commr.,2014,3883,False
+Maharashtra,Nasik Rural,2014,6832,False
+Maharashtra,Navi Mumbai,2014,5903,False
+Maharashtra,Osmanabad,2014,2825,True
+Maharashtra,Palghar,2014,4692,True
+Maharashtra,Parbhani,2014,3606,True
+Maharashtra,Pune Commr.,2014,14468,False
+Maharashtra,Pune Railway,2014,676,False
+Maharashtra,Pune Rural,2014,10334,False
+Maharashtra,Raigad,2014,2601,True
+Maharashtra,Ratnagiri,2014,1568,True
+Maharashtra,Sangli,2014,5171,True
+Maharashtra,Satara,2014,6062,True
+Maharashtra,Sindhudurg,2014,789,True
+Maharashtra,Solapur Commr.,2014,2186,False
+Maharashtra,Solapur Rural,2014,6235,False
+Maharashtra,Thane Commr.,2014,13227,False
+Maharashtra,Thane Rural,2014,3641,False
+Maharashtra,Wardha,2014,3687,True
+Maharashtra,Washim,2014,2579,True
+Maharashtra,Yavatmal,2014,9951,True
+Manipur,Bishnupur,2014,307,True
+Manipur,C. I. D.,2014,0,False
+Manipur,Chandel,2014,70,True
+Manipur,Churachandpur,2014,130,True
+Manipur,Imphal East,2014,645,True
+Manipur,Imphal West,2014,1417,True
+Manipur,Senapati,2014,121,True
+Manipur,Tamenglong,2014,125,True
+Manipur,Thoubal,2014,768,True
+Manipur,Ukhrul,2014,58,True
+Meghalaya,Garo Hills East,2014,159,False
+Meghalaya,Garo Hills North,2014,165,False
+Meghalaya,Garo Hills South,2014,167,False
+Meghalaya,Garo Hills South West,2014,65,False
+Meghalaya,Garo Hills West,2014,532,False
+Meghalaya,Jaintia Hills East,2014,281,False
+Meghalaya,Jaintia Hills West,2014,292,False
+Meghalaya,Khasi Hills East,2014,1327,False
+Meghalaya,Khasi Hills South West,2014,60,False
+Meghalaya,Khasi Hills West,2014,271,False
+Meghalaya,Ri-Bhoi,2014,360,True
+Mizoram,Aizawl,2014,1059,True
+Mizoram,Champhai,2014,238,True
+Mizoram,Kolasib,2014,263,True
+Mizoram,Lawngtlai,2014,98,True
+Mizoram,Lunglei,2014,175,True
+Mizoram,Mamit,2014,116,True
+Mizoram,Saiha,2014,73,True
+Mizoram,Serchhip,2014,98,True
+Mizoram,Spl Traffic,2014,20,False
+Nagaland,Dimapur,2014,512,True
+Nagaland,Kiphire,2014,13,True
+Nagaland,Kohima,2014,199,True
+Nagaland,Longleng,2014,15,True
+Nagaland,Mokokchung,2014,67,True
+Nagaland,Mon,2014,39,True
+Nagaland,Peren,2014,19,True
+Nagaland,Phek,2014,75,True
+Nagaland,Tuensang,2014,48,True
+Nagaland,Wokha,2014,90,True
+Nagaland,Zunheboto,2014,80,True
+Odisha,Angul,2014,2950,False
+Odisha,Balasore,2014,4305,False
+Odisha,Baragarh,2014,1817,False
+Odisha,Berhampur,2014,1709,False
+Odisha,Bhadrak,2014,2807,True
+Odisha,Bolangir,2014,2379,False
+Odisha,Boudh,2014,596,True
+Odisha,Cuttack,2014,2594,True
+Odisha,DCP BBSR,2014,5478,False
+Odisha,DCP CTC,2014,2920,False
+Odisha,Deogarh,2014,901,True
+Odisha,Dhenkanal,2014,2000,True
+Odisha,Gajapati,2014,460,True
+Odisha,Ganjam,2014,2580,True
+Odisha,Jagatsinghpur,2014,2345,False
+Odisha,Jajpur,2014,3174,False
+Odisha,Jharsuguda,2014,1431,True
+Odisha,Kalahandi,2014,2039,True
+Odisha,Kandhamal,2014,1089,True
+Odisha,Kendrapara,2014,2244,True
+Odisha,Keonjhar,2014,2571,False
+Odisha,Khurda,2014,2291,False
+Odisha,Koraput,2014,1357,True
+Odisha,Malkangiri,2014,420,True
+Odisha,Mayurbhanj,2014,2793,True
+Odisha,Nabarangpur,2014,1695,True
+Odisha,Nayagarh,2014,1487,True
+Odisha,Nuapada,2014,1175,True
+Odisha,Puri,2014,4317,True
+Odisha,Rayagada,2014,1199,True
+Odisha,Rourkela,2014,2670,False
+Odisha,SRP (Cuttack),2014,546,False
+Odisha,SRP (Rourkela),2014,460,False
+Odisha,Sambalpur,2014,3391,True
+Odisha,Sonepur,2014,724,True
+Odisha,Sundargarh,2014,1655,True
+Puducherry,Karaikal,2014,671,True
+Puducherry,Puducherry,2014,2913,False
+Punjab,Amritsar Rural,2014,1396,False
+Punjab,Barnala,2014,791,True
+Punjab,Batala,2014,865,False
+Punjab,Bathinda,2014,2117,True
+Punjab,CP Amritsar,2014,1998,False
+Punjab,CP Jalandhar,2014,2020,False
+Punjab,CP Ludhiana,2014,3546,False
+Punjab,Faridkot,2014,673,True
+Punjab,Fatehgarh Sahib,2014,920,True
+Punjab,Fazilka,2014,877,True
+Punjab,Ferozepur,2014,1300,True
+Punjab,G. R. P.,2014,372,False
+Punjab,Gurdaspur,2014,781,True
+Punjab,Hoshiarpur,2014,1637,True
+Punjab,Jalandhar Rural,2014,1154,False
+Punjab,Kapurthala,2014,1105,True
+Punjab,Khanna,2014,1132,False
+Punjab,Ludhiana Rural,2014,1081,False
+Punjab,Mansa,2014,793,True
+Punjab,Moga,2014,1172,True
+Punjab,Muktsar,2014,781,False
+Punjab,Pathankot,2014,582,True
+Punjab,Patiala,2014,2774,True
+Punjab,Ropar,2014,1122,False
+Punjab,SAS Nagar,2014,2408,False
+Punjab,SBS Nagar,2014,659,False
+Punjab,Sangrur,2014,1935,True
+Punjab,Tarn Taran,2014,1171,True
+Rajasthan,Ajmer,2014,9197,True
+Rajasthan,Alwar,2014,12742,True
+Rajasthan,Banswara,2014,2789,True
+Rajasthan,Baran,2014,4515,True
+Rajasthan,Barmer,2014,4388,True
+Rajasthan,Bharatpur,2014,10231,True
+Rajasthan,Bhilwara,2014,7353,True
+Rajasthan,Bikaner,2014,5441,True
+Rajasthan,Bundi,2014,3823,True
+Rajasthan,Chittorgarh,2014,5435,True
+Rajasthan,Churu,2014,3847,True
+Rajasthan,Dausa,2014,5584,True
+Rajasthan,Dholpur,2014,4395,True
+Rajasthan,Dungarpur,2014,2678,True
+Rajasthan,G.R.P.Ajmer,2014,1313,False
+Rajasthan,G.R.P.Jodhpur,2014,198,False
+Rajasthan,Ganganagar,2014,6929,True
+Rajasthan,Hanumangarh,2014,5021,True
+Rajasthan,Jaipur East,2014,8759,False
+Rajasthan,Jaipur North,2014,4120,False
+Rajasthan,Jaipur Rural,2014,6625,False
+Rajasthan,Jaipur South,2014,5953,False
+Rajasthan,Jaipur West,2014,7238,False
+Rajasthan,Jaisalmer,2014,1478,True
+Rajasthan,Jalore,2014,2971,True
+Rajasthan,Jhalawar,2014,4666,True
+Rajasthan,Jhunjhunu,2014,5277,True
+Rajasthan,Jodhpur East,2014,2952,False
+Rajasthan,Jodhpur Rural,2014,2693,False
+Rajasthan,Jodhpur West,2014,3281,False
+Rajasthan,Karauli,2014,4612,True
+Rajasthan,Kota City,2014,5248,False
+Rajasthan,Kota Rural,2014,2557,False
+Rajasthan,Nagaur,2014,5743,True
+Rajasthan,Pali,2014,6373,True
+Rajasthan,Praapgarh,2014,3124,False
+Rajasthan,Rajsamand,2014,2790,True
+Rajasthan,Sawai Madhopur,2014,4212,True
+Rajasthan,Sikar,2014,6994,True
+Rajasthan,Sirohi,2014,2342,True
+Rajasthan,Tonk,2014,4663,True
+Rajasthan,Udaipur,2014,9868,True
+Sikkim,CID,2014,7,False
+Sikkim,East,2014,589,False
+Sikkim,North,2014,52,False
+Sikkim,South,2014,290,False
+Sikkim,West,2014,127,False
+Tamil Nadu,Ariyalur,2014,1615,True
+Tamil Nadu,Chennai,2014,16861,True
+Tamil Nadu,Coimbatore,2014,4996,True
+Tamil Nadu,Coimbatore City,2014,4281,False
+Tamil Nadu,Cuddalore,2014,9442,True
+Tamil Nadu,Cyber Cell,2014,3,False
+Tamil Nadu,Dharmapuri,2014,4354,True
+Tamil Nadu,Dindigul,2014,6250,True
+Tamil Nadu,Erode,2014,4370,True
+Tamil Nadu,Kanchipuram,2014,8066,True
+Tamil Nadu,Kanyakumari,2014,4041,False
+Tamil Nadu,Karur,2014,2241,True
+Tamil Nadu,Krishnagiri,2014,5095,True
+Tamil Nadu,Madurai,2014,8212,True
+Tamil Nadu,Madurai City,2014,3226,False
+Tamil Nadu,Nagapattinam,2014,4386,True
+Tamil Nadu,Namakkal,2014,4003,True
+Tamil Nadu,Nilgiris,2014,1199,False
+Tamil Nadu,Other Units,2014,0,False
+Tamil Nadu,Perambalur,2014,1770,True
+Tamil Nadu,Pudukottai,2014,3720,False
+Tamil Nadu,Railway Chennai,2014,637,False
+Tamil Nadu,Railway Trichy,2014,229,False
+Tamil Nadu,Ramnathapuram,2014,3819,False
+Tamil Nadu,Salem,2014,4696,True
+Tamil Nadu,Salem City,2014,4504,False
+Tamil Nadu,Sivagangai,2014,3738,False
+Tamil Nadu,Thanjavur,2014,6225,True
+Tamil Nadu,Theni,2014,4554,True
+Tamil Nadu,Thirunelveli,2014,8490,False
+Tamil Nadu,Thirunelveli City,2014,1623,False
+Tamil Nadu,Thiruvallur,2014,4037,True
+Tamil Nadu,Thiruvannamalai,2014,4411,False
+Tamil Nadu,Thiruvarur,2014,4041,True
+Tamil Nadu,Thoothugudi,2014,5344,False
+Tamil Nadu,Tiruppur,2014,4049,True
+Tamil Nadu,Tiruppur City,2014,2490,False
+Tamil Nadu,Trichy,2014,4688,False
+Tamil Nadu,Trichy City,2014,3074,False
+Tamil Nadu,Vellore,2014,10492,True
+Tamil Nadu,Villupuram,2014,9643,True
+Tamil Nadu,Virudhunagar,2014,4285,True
+Telangana,Adilabad,2014,6036,True
+Telangana,Cyberabad,2014,19311,False
+Telangana,Hyderabad City,2014,18940,False
+Telangana,Karimnagar,2014,9382,True
+Telangana,Khammam,2014,11022,True
+Telangana,Mahaboob Nagar,2014,7533,False
+Telangana,Medak,2014,6931,True
+Telangana,Nalgonda,2014,9254,True
+Telangana,Nizamabad,2014,7053,True
+Telangana,Ranga Reddy,2014,2309,True
+Telangana,Secunderabad Railway,2014,860,False
+Telangana,Warangal,2014,4407,True
+Telangana,Warangal Urban,2014,3792,False
+Tripura,Dhalai,2014,363,True
+Tripura,G. R. P.,2014,9,False
+Tripura,Gomati,2014,825,True
+Tripura,Kowai,2014,338,False
+Tripura,North,2014,510,False
+Tripura,Sipahijala,2014,725,False
+Tripura,South,2014,678,False
+Tripura,Unakoti,2014,401,True
+Tripura,West,2014,1650,False
+Uttar Pradesh,Agra,2014,9518,True
+Uttar Pradesh,Aligarh,2014,8793,True
+Uttar Pradesh,Allahabad,2014,9909,False
+Uttar Pradesh,Ambedkar Nagar,2014,1323,True
+Uttar Pradesh,Amethi,2014,1522,True
+Uttar Pradesh,Amroha,2014,2826,True
+Uttar Pradesh,Auraiya,2014,1789,True
+Uttar Pradesh,Azamgarh,2014,2881,True
+Uttar Pradesh,Badaun,2014,2919,False
+Uttar Pradesh,Baghpat,2014,1844,True
+Uttar Pradesh,Bahraich,2014,2249,True
+Uttar Pradesh,Ballia,2014,1674,True
+Uttar Pradesh,Balrampur,2014,549,True
+Uttar Pradesh,Banda,2014,1948,True
+Uttar Pradesh,Barabanki,2014,2471,True
+Uttar Pradesh,Bareilly,2014,6589,True
+Uttar Pradesh,Basti,2014,752,True
+Uttar Pradesh,Bijnor,2014,3475,True
+Uttar Pradesh,Bulandshahar,2014,4775,False
+Uttar Pradesh,Chandoli,2014,1366,False
+Uttar Pradesh,Chitrakoot,2014,988,True
+Uttar Pradesh,Deoria,2014,1645,True
+Uttar Pradesh,Etah,2014,2783,True
+Uttar Pradesh,Etawah,2014,2721,True
+Uttar Pradesh,Faizabad,2014,2426,False
+Uttar Pradesh,Fatehgarh,2014,2151,False
+Uttar Pradesh,Fatehpur,2014,2559,True
+Uttar Pradesh,Firozabad,2014,4222,True
+Uttar Pradesh,G. R. P.,2014,5158,False
+Uttar Pradesh,Gautambudh Nagar,2014,8521,False
+Uttar Pradesh,Ghaziabad,2014,10088,True
+Uttar Pradesh,Ghazipur,2014,1945,True
+Uttar Pradesh,Gonda,2014,2021,True
+Uttar Pradesh,Gorakhpur,2014,4537,True
+Uttar Pradesh,Hamirpur,2014,981,True
+Uttar Pradesh,Hapur,2014,1841,True
+Uttar Pradesh,Hardoi,2014,2981,True
+Uttar Pradesh,Hathras,2014,2280,True
+Uttar Pradesh,Jalaun,2014,856,True
+Uttar Pradesh,Jaunpur,2014,2352,True
+Uttar Pradesh,Jhansi,2014,1985,True
+Uttar Pradesh,Kannauj,2014,2103,True
+Uttar Pradesh,Kanpur Dehat,2014,2111,True
+Uttar Pradesh,Kanpur Nagar,2014,8641,True
+Uttar Pradesh,Kasganj,2014,1232,True
+Uttar Pradesh,Kaushambi,2014,1945,True
+Uttar Pradesh,Khiri,2014,3465,False
+Uttar Pradesh,Kushi Nagar,2014,1757,True
+Uttar Pradesh,Lalitpur,2014,962,True
+Uttar Pradesh,Lucknow,2014,15107,True
+Uttar Pradesh,Maharajganj,2014,1162,True
+Uttar Pradesh,Mahoba,2014,814,True
+Uttar Pradesh,Mainpuri,2014,2469,True
+Uttar Pradesh,Mathura,2014,4779,True
+Uttar Pradesh,Mau,2014,1476,True
+Uttar Pradesh,Meerut,2014,10073,True
+Uttar Pradesh,Mirzapur,2014,780,True
+Uttar Pradesh,Moradabad,2014,4026,True
+Uttar Pradesh,Muzaffarnagar,2014,3952,True
+Uttar Pradesh,Pilibhit,2014,2916,True
+Uttar Pradesh,Pratapgarh,2014,4128,True
+Uttar Pradesh,Raibareilly,2014,2053,False
+Uttar Pradesh,Rampur,2014,1950,True
+Uttar Pradesh,Saharanpur,2014,4184,True
+Uttar Pradesh,Sambhal,2014,2087,True
+Uttar Pradesh,Sant Kabirnagar,2014,727,False
+Uttar Pradesh,Shahjahanpur,2014,3106,True
+Uttar Pradesh,Shamli,2014,1674,True
+Uttar Pradesh,Shrawasti,2014,801,False
+Uttar Pradesh,Sidharthnagar,2014,773,False
+Uttar Pradesh,Sitapur,2014,3923,True
+Uttar Pradesh,Sonbhadra,2014,753,True
+Uttar Pradesh,St.Ravidasnagar,2014,574,False
+Uttar Pradesh,Sultanpur,2014,2421,True
+Uttar Pradesh,Unnao,2014,3438,True
+Uttar Pradesh,Varanasi,2014,3900,True
+Uttarakhand,Almora,2014,139,True
+Uttarakhand,Bageshwar,2014,77,True
+Uttarakhand,Chamoli,2014,126,True
+Uttarakhand,Champawat,2014,96,True
+Uttarakhand,Dehradun,2014,2178,True
+Uttarakhand,Haridwar,2014,2505,True
+Uttarakhand,Nainital,2014,1095,True
+Uttarakhand,Pauri Garhwal,2014,278,True
+Uttarakhand,Pithoragarh,2014,117,True
+Uttarakhand,Rudra Prayag,2014,97,True
+Uttarakhand,Tehri Garhwal,2014,122,True
+Uttarakhand,Udhamsingh Nagar,2014,2234,False
+Uttarakhand,Uttarkashi,2014,92,False
+West Bengal,Alipurduar,2014,3355,True
+West Bengal,Asansol-Durgapur PC,2014,4738,False
+West Bengal,Bankura,2014,3049,True
+West Bengal,Barrackpur PC,2014,8087,False
+West Bengal,Bidhannagar PC,2014,3014,False
+West Bengal,Birbhum,2014,3749,True
+West Bengal,Burdwan,2014,7694,False
+West Bengal,Coochbehar,2014,5142,True
+West Bengal,Dakshin Dinajpur,2014,2372,False
+West Bengal,Darjeeling,2014,2418,True
+West Bengal,Hooghly,2014,8858,True
+West Bengal,Howrah G. R. P.,2014,5259,False
+West Bengal,Howrah PC,2014,6273,False
+West Bengal,Howrah Rural,2014,445,False
+West Bengal,Jalpaiguri,2014,3832,True
+West Bengal,Jhargram Police District,2014,803,False
+West Bengal,Kharagpur G. R. P.,2014,213,False
+West Bengal,Kolkata,2014,26668,True
+West Bengal,Malda,2014,6432,False
+West Bengal,Murshidabad,2014,14762,True
+West Bengal,Nadia,2014,11790,True
+West Bengal,North 24 Parganas,2014,14867,False
+West Bengal,Paschim Medinipur,2014,5791,False
+West Bengal,Purab Medinipur,2014,6778,False
+West Bengal,Purulia,2014,1800,True
+West Bengal,Sealdah G. R. P.,2014,655,False
+West Bengal,Siliguri G. R. P.,2014,220,False
+West Bengal,Siliguri PC,2014,4623,False
+West Bengal,South 24 Parganas,2014,21049,False
+West Bengal,Uttar Dinajpur,2014,8312,False

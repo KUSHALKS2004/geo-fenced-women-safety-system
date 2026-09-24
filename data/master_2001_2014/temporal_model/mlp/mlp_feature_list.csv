@@ -1,0 +1,31 @@
+FEATURE_NUMBER,FEATURE,TRANSFORMATION
+1,MURDER,log1p + StandardScaler
+2,ATTEMPT_MURDER,log1p + StandardScaler
+3,CULPABLE_HOMICIDE,log1p + StandardScaler
+4,RAPE,log1p + StandardScaler
+5,CUSTODIAL_RAPE,log1p + StandardScaler
+6,KIDNAPPING_ABDUCTION,log1p + StandardScaler
+7,DACOITY,log1p + StandardScaler
+8,ROBBERY,log1p + StandardScaler
+9,BURGLARY,log1p + StandardScaler
+10,THEFT,log1p + StandardScaler
+11,AUTO_THEFT,log1p + StandardScaler
+12,RIOTS,log1p + StandardScaler
+13,CRIMINAL_BREACH_TRUST,log1p + StandardScaler
+14,CHEATING,log1p + StandardScaler
+15,ARSON,log1p + StandardScaler
+16,DOWRY_DEATHS,log1p + StandardScaler
+17,ASSAULT_WOMEN,log1p + StandardScaler
+18,INSULT_WOMEN,log1p + StandardScaler
+19,CRUELTY_WOMEN,log1p + StandardScaler
+20,IMPORTATION_GIRLS,log1p + StandardScaler
+21,DEATH_BY_NEGLIGENCE,log1p + StandardScaler
+22,OTHER_IPC,log1p + StandardScaler
+23,TOTAL_IPC,log1p + StandardScaler
+24,WOMEN_CRIME_CORE_TOTAL,log1p + StandardScaler
+25,VIOLENT_CRIME,log1p + StandardScaler
+26,PROPERTY_CRIME,log1p + StandardScaler
+27,ECONOMIC_OFFENCES,log1p + StandardScaler
+28,PUBLIC_ORDER_CRIME,log1p + StandardScaler
+29,WOMEN_CRIME_SHARE,StandardScaler
+30,YEAR,StandardScaler

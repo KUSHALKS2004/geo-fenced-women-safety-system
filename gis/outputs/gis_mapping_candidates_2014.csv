@@ -1,0 +1,808 @@
+CRIME_STATE,CRIME_DISTRICT,TOTAL_IPC,CANDIDATE_RANK,GIS_STATE,GIS_DISTRICT,SIMILARITY_SCORE
+Andhra Pradesh,Cuddapah,5803,1,Andhra Pradesh,East Godavari,28.57
+Andhra Pradesh,Cuddapah,5803,2,Andhra Pradesh,West Godavari,28.57
+Andhra Pradesh,Cuddapah,5803,3,Andhra Pradesh,Visakhapatanam,27.27
+Andhra Pradesh,Guntakal Railway,490,1,Andhra Pradesh,Guntur,45.45
+Andhra Pradesh,Guntakal Railway,490,2,Andhra Pradesh,East Godavari,34.48
+Andhra Pradesh,Guntakal Railway,490,3,Andhra Pradesh,West Godavari,34.48
+Andhra Pradesh,Guntur Urban,5798,1,Andhra Pradesh,Guntur,66.67
+Andhra Pradesh,Guntur Urban,5798,2,Andhra Pradesh,Anantapur,38.1
+Andhra Pradesh,Guntur Urban,5798,3,Andhra Pradesh,Kurnool,31.58
+Andhra Pradesh,Nellore,8175,1,Andhra Pradesh,Spsr Nellore,73.68
+Andhra Pradesh,Nellore,8175,2,Andhra Pradesh,Guntur,30.77
+Andhra Pradesh,Nellore,8175,3,Andhra Pradesh,East Godavari,30.0
+Andhra Pradesh,Prakasham,6367,1,Andhra Pradesh,Prakasam,94.12
+Andhra Pradesh,Prakasham,6367,2,Andhra Pradesh,Srikakulam,52.63
+Andhra Pradesh,Prakasham,6367,3,Andhra Pradesh,Krishna,50.0
+Andhra Pradesh,Rajahmundry,2430,1,Andhra Pradesh,Prakasam,42.11
+Andhra Pradesh,Rajahmundry,2430,2,Andhra Pradesh,Srikakulam,38.1
+Andhra Pradesh,Rajahmundry,2430,3,Andhra Pradesh,Guntur,35.29
+Andhra Pradesh,Tirupathi Urban,3651,1,Andhra Pradesh,Visakhapatanam,41.38
+Andhra Pradesh,Tirupathi Urban,3651,2,Andhra Pradesh,Anantapur,33.33
+Andhra Pradesh,Tirupathi Urban,3651,3,Andhra Pradesh,Vizianagaram,29.63
+Andhra Pradesh,Vijayawada City,7876,1,Andhra Pradesh,Vizianagaram,44.44
+Andhra Pradesh,Vijayawada City,7876,2,Andhra Pradesh,Visakhapatanam,41.38
+Andhra Pradesh,Vijayawada City,7876,3,Andhra Pradesh,East Godavari,28.57
+Andhra Pradesh,Vijayawada Railway,1223,1,Andhra Pradesh,Vizianagaram,46.67
+Andhra Pradesh,Vijayawada Railway,1223,2,Andhra Pradesh,Visakhapatanam,43.75
+Andhra Pradesh,Vijayawada Railway,1223,3,Andhra Pradesh,East Godavari,32.26
+Andhra Pradesh,Visakha Rural,3028,1,Andhra Pradesh,Visakhapatanam,59.26
+Andhra Pradesh,Visakha Rural,3028,2,Andhra Pradesh,Vizianagaram,48.0
+Andhra Pradesh,Visakha Rural,3028,3,Andhra Pradesh,Kurnool,40.0
+Andhra Pradesh,Visakhapatnam,7728,1,Andhra Pradesh,Visakhapatanam,96.3
+Andhra Pradesh,Visakhapatnam,7728,2,Andhra Pradesh,Krishna,50.0
+Andhra Pradesh,Visakhapatnam,7728,3,Andhra Pradesh,Vizianagaram,48.0
+Assam,Baska,853,1,Assam,Baksa,80.0
+Assam,Baska,853,2,Assam,Barpeta,50.0
+Assam,Baska,853,3,Assam,Sivasagar,42.86
+Assam,G. R. P.,319,1,Assam,Kamrup,36.36
+Assam,G. R. P.,319,2,Assam,Barpeta,33.33
+Assam,G. R. P.,319,3,Assam,Goalpara,30.77
+Assam,Guwahati City,12216,1,Assam,Golaghat,47.62
+Assam,Guwahati City,12216,2,Assam,Biswanath,36.36
+Assam,Guwahati City,12216,3,Assam,Hailakandi,34.78
+Assam,Morigaon,2557,1,Assam,Marigaon,87.5
+Assam,Morigaon,2557,2,Assam,Bongaigaon,66.67
+Assam,Morigaon,2557,3,Assam,Karimganj,58.82
+Assam,N. C. Hills,299,1,Assam,Chirang,37.5
+Assam,N. C. Hills,299,2,Assam,Charaideo,33.33
+Assam,N. C. Hills,299,3,Assam,Hailakandi,31.58
+Assam,Sibsagar,4236,1,Assam,Sivasagar,82.35
+Assam,Sibsagar,4236,2,Assam,Dibrugarh,58.82
+Assam,Sibsagar,4236,3,Assam,Baksa,46.15
+Bihar,Anti Terrorist Squad,0,1,Bihar,Araria,38.46
+Bihar,Anti Terrorist Squad,0,2,Bihar,Kaimur (Bhabua),30.3
+Bihar,Anti Terrorist Squad,0,3,Bihar,Katihar,29.63
+Bihar,Bagaha,1860,1,Bihar,Gaya,60.0
+Bihar,Bagaha,1860,2,Bihar,Khagaria,57.14
+Bihar,Bagaha,1860,3,Bihar,Banka,54.55
+Bihar,Bettiah,4712,1,Bihar,Katihar,42.86
+Bihar,Bettiah,4712,2,Bihar,Begusarai,37.5
+Bihar,Bettiah,4712,3,Bihar,Sheikhpura,35.29
+Bihar,Bhabhua,2267,1,Bihar,Kaimur (Bhabua),60.0
+Bihar,Bhabhua,2267,2,Bihar,Banka,50.0
+Bihar,Bhabhua,2267,3,Bihar,Bhagalpur,50.0
+Bihar,Economic Offences Unit,11,1,Bihar,Madhubani,25.81
+Bihar,Economic Offences Unit,11,2,Bihar,Muzaffarpur,24.24
+Bihar,Economic Offences Unit,11,3,Bihar,Munger,21.43
+Bihar,Jamalpur Railway,298,1,Bihar,Kaimur (Bhabua),48.28
+Bihar,Jamalpur Railway,298,2,Bihar,Bhagalpur,48.0
+Bihar,Jamalpur Railway,298,3,Bihar,Madhepura,48.0
+Bihar,Katihar Railway,313,1,Bihar,Katihar,63.64
+Bihar,Katihar Railway,313,2,Bihar,Saharsa,45.45
+Bihar,Katihar Railway,313,3,Bihar,Khagaria,43.48
+Bihar,Motihari,9490,1,Bihar,Katihar,66.67
+Bihar,Motihari,9490,2,Bihar,Sheohar,53.33
+Bihar,Motihari,9490,3,Bihar,Khagaria,50.0
+Bihar,Muzaffarpur Railway,596,1,Bihar,Muzaffarpur,73.33
+Bihar,Muzaffarpur Railway,596,2,Bihar,Madhepura,42.86
+Bihar,Muzaffarpur Railway,596,3,Bihar,Kaimur (Bhabua),37.5
+Bihar,Naugachia,1732,1,Bihar,Khagaria,58.82
+Bihar,Naugachia,1732,2,Bihar,Araria,53.33
+Bihar,Naugachia,1732,3,Bihar,Nawada,53.33
+Bihar,Nawadah,3408,1,Bihar,Nawada,92.31
+Bihar,Nawadah,3408,2,Bihar,Nalanda,71.43
+Bihar,Nawadah,3408,3,Bihar,Jehanabad,50.0
+Bihar,Patna Railway,1216,1,Bihar,Patna,55.56
+Bihar,Patna Railway,1216,2,Bihar,Araria,52.63
+Bihar,Patna Railway,1216,3,Bihar,Arwal,44.44
+Bihar,Purnea,5723,1,Bihar,Purnia,83.33
+Bihar,Purnea,5723,2,Bihar,Patna,54.55
+Bihar,Purnea,5723,3,Bihar,Madhepura,53.33
+Chhattisgarh,Balodbazar,2578,1,Chhattisgarh,Baloda Bazar,90.91
+Chhattisgarh,Balodbazar,2578,2,Chhattisgarh,Balod,66.67
+Chhattisgarh,Balodbazar,2578,3,Chhattisgarh,Balrampur,52.63
+Chhattisgarh,Bemetra,1645,1,Chhattisgarh,Bemetara,93.33
+Chhattisgarh,Bemetra,1645,2,Chhattisgarh,Bastar,46.15
+Chhattisgarh,Bemetra,1645,3,Chhattisgarh,Dhamtari,40.0
+Chhattisgarh,Bizapur,343,1,Chhattisgarh,Bijapur,85.71
+Chhattisgarh,Bizapur,343,2,Chhattisgarh,Bilaspur,80.0
+Chhattisgarh,Bizapur,343,3,Chhattisgarh,Balrampur,62.5
+Chhattisgarh,Dantewara,442,1,Chhattisgarh,Dantewada,88.89
+Chhattisgarh,Dantewara,442,2,Chhattisgarh,Dhamtari,58.82
+Chhattisgarh,Dantewara,442,3,Chhattisgarh,Bastar,53.33
+Chhattisgarh,G. R. P. Raipur,400,1,Chhattisgarh,Raipur,66.67
+Chhattisgarh,G. R. P. Raipur,400,2,Chhattisgarh,Surajpur,50.0
+Chhattisgarh,G. R. P. Raipur,400,3,Chhattisgarh,Balrampur,47.62
+Chhattisgarh,Jagdalpur,1580,1,Chhattisgarh,Jashpur,62.5
+Chhattisgarh,Jagdalpur,1580,2,Chhattisgarh,Bijapur,62.5
+Chhattisgarh,Jagdalpur,1580,3,Chhattisgarh,Balrampur,55.56
+Chhattisgarh,Janjgir,3401,1,Chhattisgarh,Janjgir-Champa,66.67
+Chhattisgarh,Janjgir,3401,2,Chhattisgarh,Kanker,46.15
+Chhattisgarh,Janjgir,3401,3,Chhattisgarh,Raipur,46.15
+Chhattisgarh,Koriya,1707,1,Chhattisgarh,Korba,72.73
+Chhattisgarh,Koriya,1707,2,Chhattisgarh,Korea,72.73
+Chhattisgarh,Koriya,1707,3,Chhattisgarh,Gariyaband,50.0
+Chhattisgarh,Mungali,938,1,Chhattisgarh,Mungeli,85.71
+Chhattisgarh,Mungali,938,2,Chhattisgarh,Surguja,42.86
+Chhattisgarh,Mungali,938,3,Chhattisgarh,Dhamtari,40.0
+Chhattisgarh,Sarguja,1835,1,Chhattisgarh,Surguja,85.71
+Chhattisgarh,Sarguja,1835,2,Chhattisgarh,Bastar,46.15
+Chhattisgarh,Sarguja,1835,3,Chhattisgarh,Surajpur,40.0
+Goa,C. I. D.,112,1,Goa,North Goa,14.29
+Goa,C. I. D.,112,2,Goa,South Goa,14.29
+Gujarat,Ahmedabad City,15286,1,Gujarat,Ahmadabad,69.57
+Gujarat,Ahmedabad City,15286,2,Gujarat,Mahesana,45.45
+Gujarat,Ahmedabad City,15286,3,Gujarat,Kheda,42.11
+Gujarat,Ahmedabad Rural,4266,1,Gujarat,Ahmadabad,66.67
+Gujarat,Ahmedabad Rural,4266,2,Gujarat,Jamnagar,43.48
+Gujarat,Ahmedabad Rural,4266,3,Gujarat,Mahesana,43.48
+Gujarat,Banaskantha,4464,1,Gujarat,Banas Kantha,95.65
+Gujarat,Banaskantha,4464,2,Gujarat,Sabar Kantha,69.57
+Gujarat,Banaskantha,4464,3,Gujarat,Anand,50.0
+Gujarat,C. I. D. Crime,8,1,Gujarat,Devbhumi Dwarka,30.77
+Gujarat,C. I. D. Crime,8,2,Gujarat,Panch Mahals,26.09
+Gujarat,C. I. D. Crime,8,3,Gujarat,Chhotaudepur,26.09
+Gujarat,Dahod,2594,1,Gujarat,Dohad,60.0
+Gujarat,Dahod,2594,2,Gujarat,Dang,44.44
+Gujarat,Dahod,2594,3,Gujarat,Ahmadabad,42.86
+Gujarat,Kachchh East(G),3349,1,Gujarat,Kachchh,66.67
+Gujarat,Kachchh East(G),3349,2,Gujarat,Panch Mahals,46.15
+Gujarat,Kachchh East(G),3349,3,Gujarat,Mahesana,36.36
+Gujarat,Kachchh West(B),2269,1,Gujarat,Kachchh,66.67
+Gujarat,Kachchh West(B),2269,2,Gujarat,Panch Mahals,38.46
+Gujarat,Kachchh West(B),2269,3,Gujarat,Mahesana,36.36
+Gujarat,Mehsana,6587,1,Gujarat,Mahesana,80.0
+Gujarat,Mehsana,6587,2,Gujarat,Mahisagar,62.5
+Gujarat,Mehsana,6587,3,Gujarat,Anand,50.0
+Gujarat,Panchmahal,2634,1,Gujarat,Panch Mahals,90.91
+Gujarat,Panchmahal,2634,2,Gujarat,Ahmadabad,52.63
+Gujarat,Panchmahal,2634,3,Gujarat,Gandhinagar,47.62
+Gujarat,Rajkot City,3516,1,Gujarat,Rajkot,70.59
+Gujarat,Rajkot City,3516,2,Gujarat,Surat,37.5
+Gujarat,Rajkot City,3516,3,Gujarat,Arvalli,33.33
+Gujarat,Rajkot Rural,2891,1,Gujarat,Rajkot,66.67
+Gujarat,Rajkot Rural,2891,2,Gujarat,Patan,35.29
+Gujarat,Rajkot Rural,2891,3,Gujarat,Surat,35.29
+Gujarat,Sabarkantha,5647,1,Gujarat,Sabar Kantha,95.65
+Gujarat,Sabarkantha,5647,2,Gujarat,Banas Kantha,69.57
+Gujarat,Sabarkantha,5647,3,Gujarat,Bharuch,44.44
+Gujarat,Surat City,4397,1,Gujarat,Surat,66.67
+Gujarat,Surat City,4397,2,Gujarat,Rajkot,37.5
+Gujarat,Surat City,4397,3,Gujarat,Sabar Kantha,36.36
+Gujarat,Surat Rural,3810,1,Gujarat,Surat,62.5
+Gujarat,Surat Rural,3810,2,Gujarat,Sabar Kantha,43.48
+Gujarat,Surat Rural,3810,3,Gujarat,Surendranagar,41.67
+Gujarat,Vadodara City,12651,1,Gujarat,Vadodara,76.19
+Gujarat,Vadodara City,12651,2,Gujarat,Navsari,40.0
+Gujarat,Vadodara City,12651,3,Gujarat,Sabar Kantha,40.0
+Gujarat,Vadodara Rural,2896,1,Gujarat,Vadodara,72.73
+Gujarat,Vadodara Rural,2896,2,Gujarat,Sabar Kantha,38.46
+Gujarat,Vadodara Rural,2896,3,Gujarat,Bhavnagar,34.78
+Gujarat,W.Rly  Ahmedabad,454,1,Gujarat,Ahmadabad,66.67
+Gujarat,W.Rly  Ahmedabad,454,2,Gujarat,Mahesana,43.48
+Gujarat,W.Rly  Ahmedabad,454,3,Gujarat,Kheda,40.0
+Gujarat,W.Rly Vadodara,657,1,Gujarat,Vadodara,72.73
+Gujarat,W.Rly Vadodara,657,2,Gujarat,Porbandar,43.48
+Gujarat,W.Rly Vadodara,657,3,Gujarat,Narmada,38.1
+Haryana,Ambala (Rural),1098,1,Haryana,Ambala,66.67
+Haryana,Ambala (Rural),1098,2,Haryana,Palwal,44.44
+Haryana,Ambala (Rural),1098,3,Haryana,Yamunanagar,43.48
+Haryana,Ambala (Urban),1977,1,Haryana,Ambala,66.67
+Haryana,Ambala (Urban),1977,2,Haryana,Yamunanagar,43.48
+Haryana,Ambala (Urban),1977,3,Haryana,Karnal,33.33
+Haryana,G. R. P.,1139,1,Haryana,Gurugram,30.77
+Haryana,G. R. P.,1139,2,Haryana,Yamunanagar,25.0
+Haryana,G. R. P.,1139,3,Haryana,Mahendragarh,23.53
+Haryana,Gurgaon,11444,1,Haryana,Gurugram,66.67
+Haryana,Gurgaon,11444,2,Haryana,Kurukshetra,33.33
+Haryana,Gurgaon,11444,3,Haryana,Sirsa,33.33
+Haryana,Hissar,5608,1,Haryana,Hisar,90.91
+Haryana,Hissar,5608,2,Haryana,Sirsa,54.55
+Haryana,Hissar,5608,3,Haryana,Bhiwani,46.15
+Haryana,Irrigation & Power,192,1,Haryana,Mahendragarh,28.57
+Haryana,Irrigation & Power,192,2,Haryana,Sirsa,28.57
+Haryana,Irrigation & Power,192,3,Haryana,Rewari,27.27
+Haryana,Mahendergarh,2262,1,Haryana,Mahendragarh,91.67
+Haryana,Mahendergarh,2262,2,Haryana,Yamunanagar,52.17
+Haryana,Mahendergarh,2262,3,Haryana,Hisar,35.29
+Haryana,Mewat,2414,1,Haryana,Rewari,54.55
+Haryana,Mewat,2414,2,Haryana,Ambala,36.36
+Haryana,Mewat,2414,3,Haryana,Palwal,36.36
+Himachal Pradesh,Baddi,651,1,Himachal Pradesh,Mandi,60.0
+Himachal Pradesh,Baddi,651,2,Himachal Pradesh,Chamba,36.36
+Himachal Pradesh,Baddi,651,3,Himachal Pradesh,Bilaspur,30.77
+Himachal Pradesh,C. I. D.,4,1,Himachal Pradesh,Lahul And Spiti,20.0
+Himachal Pradesh,C. I. D.,4,2,Himachal Pradesh,Mandi,20.0
+Himachal Pradesh,C. I. D.,4,3,Himachal Pradesh,Chamba,18.18
+Himachal Pradesh,G. R. P.,9,1,Himachal Pradesh,Kangra,36.36
+Himachal Pradesh,G. R. P.,9,2,Himachal Pradesh,Hamirpur,30.77
+Himachal Pradesh,G. R. P.,9,3,Himachal Pradesh,Lahul And Spiti,30.0
+Himachal Pradesh,Lahaul & Spiti,84,1,Himachal Pradesh,Lahul And Spiti,81.48
+Himachal Pradesh,Lahaul & Spiti,84,2,Himachal Pradesh,Bilaspur,40.0
+Himachal Pradesh,Lahaul & Spiti,84,3,Himachal Pradesh,Hamirpur,30.0
+Jammu & Kashmir,Awantipora,389,1,Jammu & Kashmir,Bandipora,73.68
+Jammu & Kashmir,Awantipora,389,2,Jammu & Kashmir,Anantnag,55.56
+Jammu & Kashmir,Awantipora,389,3,Jammu & Kashmir,Kupwara,47.06
+Jammu & Kashmir,Crime Jammu,14,1,Jammu & Kashmir,Jammu,62.5
+Jammu & Kashmir,Crime Jammu,14,2,Jammu & Kashmir,Baramulla,40.0
+Jammu & Kashmir,Crime Jammu,14,3,Jammu & Kashmir,Ramban,35.29
+Jammu & Kashmir,Crime Srinagar,43,1,Jammu & Kashmir,Srinagar,72.73
+Jammu & Kashmir,Crime Srinagar,43,2,Jammu & Kashmir,Kishtwar,36.36
+Jammu & Kashmir,Crime Srinagar,43,3,Jammu & Kashmir,Muzaffarabad,30.77
+Jammu & Kashmir,Handwara,562,1,Jammu & Kashmir,Bandipora,58.82
+Jammu & Kashmir,Handwara,562,2,Jammu & Kashmir,Kupwara,53.33
+Jammu & Kashmir,Handwara,562,3,Jammu & Kashmir,Anantnag,50.0
+Jammu & Kashmir,Kargil,105,1,Jammu & Kashmir,Kupwara,46.15
+Jammu & Kashmir,Kargil,105,2,Jammu & Kashmir,Rajouri,46.15
+Jammu & Kashmir,Kargil,105,3,Jammu & Kashmir,Kishtwar,42.86
+Jammu & Kashmir,Leh,166,1,Jammu & Kashmir,Reasi,25.0
+Jammu & Kashmir,Leh,166,2,Jammu & Kashmir,Kathua,22.22
+Jammu & Kashmir,Leh,166,3,Jammu & Kashmir,Poonch,22.22
+Jammu & Kashmir,Railways Jammu,16,1,Jammu & Kashmir,Jammu,52.63
+Jammu & Kashmir,Railways Jammu,16,2,Jammu & Kashmir,Pulwama,38.1
+Jammu & Kashmir,Railways Jammu,16,3,Jammu & Kashmir,Baramulla,34.78
+Jammu & Kashmir,Railways Kashmir,13,1,Jammu & Kashmir,Reasi,38.1
+Jammu & Kashmir,Railways Kashmir,13,2,Jammu & Kashmir,Pulwama,34.78
+Jammu & Kashmir,Railways Kashmir,13,3,Jammu & Kashmir,Srinagar,33.33
+Jammu & Kashmir,Railways Katra,6,1,Jammu & Kashmir,Kathua,40.0
+Jammu & Kashmir,Railways Katra,6,2,Jammu & Kashmir,Pulwama,38.1
+Jammu & Kashmir,Railways Katra,6,3,Jammu & Kashmir,Srinagar,36.36
+Jammu & Kashmir,Sopore,634,1,Jammu & Kashmir,Shopian,46.15
+Jammu & Kashmir,Sopore,634,2,Jammu & Kashmir,Bandipora,40.0
+Jammu & Kashmir,Sopore,634,3,Jammu & Kashmir,Reasi,36.36
+Jharkhand,Chaibasa,954,1,Jharkhand,Chatra,57.14
+Jharkhand,Chaibasa,954,2,Jharkhand,Hazaribagh,55.56
+Jharkhand,Chaibasa,954,3,Jharkhand,Dhanbad,53.33
+Jharkhand,Dhanbad Railway,365,1,Jharkhand,Dhanbad,63.64
+Jharkhand,Dhanbad Railway,365,2,Jharkhand,Saraikela Kharsawan,41.18
+Jharkhand,Dhanbad Railway,365,3,Jharkhand,Chatra,38.1
+Jharkhand,Jamshedpur,3985,1,Jharkhand,Jamtara,47.06
+Jharkhand,Jamshedpur,3985,2,Jharkhand,Pakur,40.0
+Jharkhand,Jamshedpur,3985,3,Jharkhand,Palamu,37.5
+Jharkhand,Jamshedpur Railway,188,1,Jharkhand,Jamtara,40.0
+Jharkhand,Jamshedpur Railway,188,2,Jharkhand,Saraikela Kharsawan,37.84
+Jharkhand,Jamshedpur Railway,188,3,Jharkhand,Garhwa,33.33
+Jharkhand,Lohardagga,536,1,Jharkhand,Lohardaga,94.74
+Jharkhand,Lohardagga,536,2,Jharkhand,Chatra,50.0
+Jharkhand,Lohardagga,536,3,Jharkhand,Hazaribagh,50.0
+Jharkhand,Saraikela,1108,1,Jharkhand,Saraikela Kharsawan,64.29
+Jharkhand,Saraikela,1108,2,Jharkhand,Lohardaga,44.44
+Jharkhand,Saraikela,1108,3,Jharkhand,Chatra,40.0
+Karnataka,Bagalkot,2131,1,Karnataka,Bagalkote,94.12
+Karnataka,Bagalkot,2131,2,Karnataka,Belagavi,50.0
+Karnataka,Bagalkot,2131,3,Karnataka,Ballari,40.0
+Karnataka,Belagavi City,2396,1,Karnataka,Belagavi,76.19
+Karnataka,Belagavi City,2396,2,Karnataka,Bagalkote,45.45
+Karnataka,Belagavi City,2396,3,Karnataka,Ballari,40.0
+Karnataka,Belagavi District,4851,1,Karnataka,Belagavi,64.0
+Karnataka,Belagavi District,4851,2,Karnataka,Ballari,41.67
+Karnataka,Belagavi District,4851,3,Karnataka,Bagalkote,38.46
+Karnataka,Bengaluru City,31892,1,Karnataka,Bengaluru Urban,68.97
+Karnataka,Bengaluru City,31892,2,Karnataka,Bengaluru Rural,68.97
+Karnataka,Bengaluru City,31892,3,Karnataka,Ballari,47.62
+Karnataka,Bengaluru District,5567,1,Karnataka,Bengaluru Urban,66.67
+Karnataka,Bengaluru District,5567,2,Karnataka,Bengaluru Rural,66.67
+Karnataka,Bengaluru District,5567,3,Karnataka,Ballari,40.0
+Karnataka,Chamarajnagar,1607,1,Karnataka,Chamarajanagara,92.86
+Karnataka,Chamarajnagar,1607,2,Karnataka,Ramanagara,69.57
+Karnataka,Chamarajnagar,1607,3,Karnataka,Chikkamagaluru,59.26
+Karnataka,Davanagere,3635,1,Karnataka,Davangere,94.74
+Karnataka,Davanagere,3635,2,Karnataka,Ramanagara,60.0
+Karnataka,Davanagere,3635,3,Karnataka,Haveri,50.0
+Karnataka,Hubballi Dharwad City,1936,1,Karnataka,Ballari,50.0
+Karnataka,Hubballi Dharwad City,1936,2,Karnataka,Dharwad,50.0
+Karnataka,Hubballi Dharwad City,1936,3,Karnataka,Chikkaballapura,44.44
+Karnataka,K.G.F.,777,1,Karnataka,Kodagu,36.36
+Karnataka,K.G.F.,777,2,Karnataka,Kalaburagi,26.67
+Karnataka,K.G.F.,777,3,Karnataka,Chikkamagaluru,21.05
+Karnataka,K.Railways,948,1,Karnataka,Kalaburagi,40.0
+Karnataka,K.Railways,948,2,Karnataka,Koppal,37.5
+Karnataka,K.Railways,948,3,Karnataka,Dharwad,35.29
+Karnataka,Kalaburgi,4448,1,Karnataka,Kalaburagi,94.74
+Karnataka,Kalaburgi,4448,2,Karnataka,Ballari,62.5
+Karnataka,Kalaburgi,4448,3,Karnataka,Kolar,57.14
+Karnataka,Mangaluru City,3039,1,Karnataka,Chikkamagaluru,57.14
+Karnataka,Mangaluru City,3039,2,Karnataka,Bengaluru Urban,55.17
+Karnataka,Mangaluru City,3039,3,Karnataka,Bengaluru Rural,55.17
+Karnataka,Mysuru City,2766,1,Karnataka,Mysuru,70.59
+Karnataka,Mysuru City,2766,2,Karnataka,Tumakuru,42.11
+Karnataka,Mysuru City,2766,3,Karnataka,Udupi,37.5
+Karnataka,Mysuru District,4118,1,Karnataka,Mysuru,57.14
+Karnataka,Mysuru District,4118,2,Karnataka,Tumakuru,34.78
+Karnataka,Mysuru District,4118,3,Karnataka,Bengaluru Urban,33.33
+Karnataka,Ramanagar,4249,1,Karnataka,Ramanagara,94.74
+Karnataka,Ramanagar,4249,2,Karnataka,Chamarajanagara,66.67
+Karnataka,Ramanagar,4249,3,Karnataka,Davangere,55.56
+Karnataka,Shimoga,6043,1,Karnataka,Shivamogga,82.35
+Karnataka,Shimoga,6043,2,Karnataka,Chikkamagaluru,47.62
+Karnataka,Shimoga,6043,3,Karnataka,Chitradurga,44.44
+Karnataka,Yadgiri,1496,1,Karnataka,Yadgir,92.31
+Karnataka,Yadgiri,1496,2,Karnataka,Gadag,50.0
+Karnataka,Yadgiri,1496,3,Karnataka,Haveri,46.15
+Kerala,Alapuzha,11033,1,Kerala,Alappuzha,94.12
+Kerala,Alapuzha,11033,2,Kerala,Malappuram,66.67
+Kerala,Alapuzha,11033,3,Kerala,Palakkad,50.0
+Kerala,Crime Branch,185,1,Kerala,Thrissur,30.0
+Kerala,Crime Branch,185,2,Kerala,Malappuram,27.27
+Kerala,Crime Branch,185,3,Kerala,Pathanamthitta,23.08
+Kerala,Ernakulam Commr.,17088,1,Kerala,Ernakulam,75.0
+Kerala,Ernakulam Commr.,17088,2,Kerala,Kollam,38.1
+Kerala,Ernakulam Commr.,17088,3,Kerala,Thiruvananthapuram,36.36
+Kerala,Ernakulam Rural,20185,1,Kerala,Ernakulam,75.0
+Kerala,Ernakulam Rural,20185,2,Kerala,Malappuram,48.0
+Kerala,Ernakulam Rural,20185,3,Kerala,Thiruvananthapuram,42.42
+Kerala,Kasargod,5016,1,Kerala,Kasaragod,94.12
+Kerala,Kasargod,5016,2,Kerala,Kannur,42.86
+Kerala,Kasargod,5016,3,Kerala,Wayanad,40.0
+Kerala,Kollam Commr.,9314,1,Kerala,Kollam,66.67
+Kerala,Kollam Commr.,9314,2,Kerala,Kottayam,40.0
+Kerala,Kollam Commr.,9314,3,Kerala,Ernakulam,38.1
+Kerala,Kollam Rural,7910,1,Kerala,Kollam,66.67
+Kerala,Kollam Rural,7910,2,Kerala,Malappuram,45.45
+Kerala,Kollam Rural,7910,3,Kerala,Kannur,44.44
+Kerala,Kozhikode Commr.,4665,1,Kerala,Kozhikode,75.0
+Kerala,Kozhikode Commr.,4665,2,Kerala,Kollam,28.57
+Kerala,Kozhikode Commr.,4665,3,Kerala,Kottayam,26.09
+Kerala,Kozhikode Rural,5391,1,Kerala,Kozhikode,75.0
+Kerala,Kozhikode Rural,5391,2,Kerala,Thiruvananthapuram,36.36
+Kerala,Kozhikode Rural,5391,3,Kerala,Thrissur,34.78
+Kerala,Railways,508,1,Kerala,Ernakulam,47.06
+Kerala,Railways,508,2,Kerala,Wayanad,40.0
+Kerala,Railways,508,3,Kerala,Palakkad,37.5
+Kerala,Thrissur Commr.,6548,1,Kerala,Thrissur,72.73
+Kerala,Thrissur Commr.,6548,2,Kerala,Thiruvananthapuram,37.5
+Kerala,Thrissur Commr.,6548,3,Kerala,Ernakulam,26.09
+Kerala,Thrissur Rural,20117,1,Kerala,Thrissur,72.73
+Kerala,Thrissur Rural,20117,2,Kerala,Thiruvananthapuram,43.75
+Kerala,Thrissur Rural,20117,3,Kerala,Pathanamthitta,28.57
+Kerala,Trivandrum Commr.,12504,1,Kerala,Thiruvananthapuram,41.18
+Kerala,Trivandrum Commr.,12504,2,Kerala,Thrissur,33.33
+Kerala,Trivandrum Commr.,12504,3,Kerala,Ernakulam,32.0
+Kerala,Trivandrum Rural,12024,1,Kerala,Thiruvananthapuram,47.06
+Kerala,Trivandrum Rural,12024,2,Kerala,Thrissur,41.67
+Kerala,Trivandrum Rural,12024,3,Kerala,Kannur,36.36
+Kerala,Wayanadu,3182,1,Kerala,Wayanad,93.33
+Kerala,Wayanadu,3182,2,Kerala,Palakkad,50.0
+Kerala,Wayanadu,3182,3,Kerala,Kasaragod,47.06
+Lakshadweep,Lakshadweep,81,1,Lakshadweep,Lakshadweep District,70.97
+Madhya Pradesh,Agar,1652,1,Madhya Pradesh,Sagar,88.89
+Madhya Pradesh,Agar,1652,2,Madhya Pradesh,Rajgarh,72.73
+Madhya Pradesh,Agar,1652,3,Madhya Pradesh,Tikamgarh,61.54
+Madhya Pradesh,Ashok Nagar,3366,1,Madhya Pradesh,Ashoknagar,95.24
+Madhya Pradesh,Ashok Nagar,3366,2,Madhya Pradesh,Sagar,62.5
+Madhya Pradesh,Ashok Nagar,3366,3,Madhya Pradesh,East Nimar,57.14
+Madhya Pradesh,Bhopal Railway,2067,1,Madhya Pradesh,Bhopal,60.0
+Madhya Pradesh,Bhopal Railway,2067,2,Madhya Pradesh,Agar Malwa,50.0
+Madhya Pradesh,Bhopal Railway,2067,3,Madhya Pradesh,Barwani,47.62
+Madhya Pradesh,Cyber Cell,0,1,Madhya Pradesh,Betul,40.0
+Madhya Pradesh,Cyber Cell,0,2,Madhya Pradesh,Sehore,37.5
+Madhya Pradesh,Cyber Cell,0,3,Madhya Pradesh,Agar Malwa,30.0
+Madhya Pradesh,Hoshangabad,4870,1,Madhya Pradesh,Sagar,50.0
+Madhya Pradesh,Hoshangabad,4870,2,Madhya Pradesh,Satna,50.0
+Madhya Pradesh,Hoshangabad,4870,3,Madhya Pradesh,Ashoknagar,47.62
+Madhya Pradesh,Indore Railway,552,1,Madhya Pradesh,Indore,60.0
+Madhya Pradesh,Indore Railway,552,2,Madhya Pradesh,Dindori,57.14
+Madhya Pradesh,Indore Railway,552,3,Madhya Pradesh,Agar Malwa,50.0
+Madhya Pradesh,Jabalpur Railway,1159,1,Madhya Pradesh,Jabalpur,66.67
+Madhya Pradesh,Jabalpur Railway,1159,2,Madhya Pradesh,Agar Malwa,61.54
+Madhya Pradesh,Jabalpur Railway,1159,3,Madhya Pradesh,Barwani,43.48
+Madhya Pradesh,Khandwa,4011,1,Madhya Pradesh,Harda,66.67
+Madhya Pradesh,Khandwa,4011,2,Madhya Pradesh,Mandla,61.54
+Madhya Pradesh,Khandwa,4011,3,Madhya Pradesh,Chhindwara,58.82
+Maharashtra,Amravati Commr.,3338,1,Maharashtra,Amravati,72.73
+Maharashtra,Amravati Commr.,3338,2,Maharashtra,Yavatmal,45.45
+Maharashtra,Amravati Commr.,3338,3,Maharashtra,Ratnagiri,43.48
+Maharashtra,Amravati Rural,6948,1,Maharashtra,Amravati,72.73
+Maharashtra,Amravati Rural,6948,2,Maharashtra,Yavatmal,54.55
+Maharashtra,Amravati Rural,6948,3,Maharashtra,Ratnagiri,43.48
+Maharashtra,Aurangabad Commr.,4821,1,Maharashtra,Aurangabad,76.92
+Maharashtra,Aurangabad Commr.,4821,2,Maharashtra,Nandurbar,48.0
+Maharashtra,Aurangabad Commr.,4821,3,Maharashtra,Osmanabad,48.0
+Maharashtra,Aurangabad Rural,4237,1,Maharashtra,Aurangabad,76.92
+Maharashtra,Aurangabad Rural,4237,2,Maharashtra,Nandurbar,48.0
+Maharashtra,Aurangabad Rural,4237,3,Maharashtra,Osmanabad,48.0
+Maharashtra,Mumbai Commr.,40361,1,Maharashtra,Mumbai,66.67
+Maharashtra,Mumbai Commr.,40361,2,Maharashtra,Mumbai Suburban,59.26
+Maharashtra,Mumbai Commr.,40361,3,Maharashtra,Nandurbar,38.1
+Maharashtra,Mumbai Railway,3141,1,Maharashtra,Mumbai Suburban,62.07
+Maharashtra,Mumbai Railway,3141,2,Maharashtra,Mumbai,60.0
+Maharashtra,Mumbai Railway,3141,3,Maharashtra,Raigad,40.0
+Maharashtra,Nagpur Commr.,10359,1,Maharashtra,Nagpur,66.67
+Maharashtra,Nagpur Commr.,10359,2,Maharashtra,Nandurbar,47.62
+Maharashtra,Nagpur Commr.,10359,3,Maharashtra,Chandrapur,45.45
+Maharashtra,Nagpur Railway,1768,1,Maharashtra,Nagpur,60.0
+Maharashtra,Nagpur Railway,1768,2,Maharashtra,Nandurbar,43.48
+Maharashtra,Nagpur Railway,1768,3,Maharashtra,Ratnagiri,43.48
+Maharashtra,Nagpur Rural,4564,1,Maharashtra,Nagpur,66.67
+Maharashtra,Nagpur Rural,4564,2,Maharashtra,Nandurbar,47.62
+Maharashtra,Nagpur Rural,4564,3,Maharashtra,Chandrapur,45.45
+Maharashtra,Nasik Commr.,3883,1,Maharashtra,Nashik,58.82
+Maharashtra,Nasik Commr.,3883,2,Maharashtra,Washim,47.06
+Maharashtra,Nasik Commr.,3883,3,Maharashtra,Ratnagiri,40.0
+Maharashtra,Nasik Rural,6832,1,Maharashtra,Nashik,58.82
+Maharashtra,Nasik Rural,6832,2,Maharashtra,Nandurbar,50.0
+Maharashtra,Nasik Rural,6832,3,Maharashtra,Nagpur,47.06
+Maharashtra,Navi Mumbai,5903,1,Maharashtra,Mumbai,70.59
+Maharashtra,Navi Mumbai,5903,2,Maharashtra,Nandurbar,50.0
+Maharashtra,Navi Mumbai,5903,3,Maharashtra,Mumbai Suburban,46.15
+Maharashtra,Pune Commr.,14468,1,Maharashtra,Pune,57.14
+Maharashtra,Pune Commr.,14468,2,Maharashtra,Nagpur,37.5
+Maharashtra,Pune Commr.,14468,3,Maharashtra,Solapur,35.29
+Maharashtra,Pune Railway,676,1,Maharashtra,Pune,50.0
+Maharashtra,Pune Railway,676,2,Maharashtra,Raigad,44.44
+Maharashtra,Pune Railway,676,3,Maharashtra,Aurangabad,36.36
+Maharashtra,Pune Rural,10334,1,Maharashtra,Pune,57.14
+Maharashtra,Pune Rural,10334,2,Maharashtra,Nandurbar,42.11
+Maharashtra,Pune Rural,10334,3,Maharashtra,Mumbai Suburban,40.0
+Maharashtra,Solapur Commr.,2186,1,Maharashtra,Solapur,70.0
+Maharashtra,Solapur Commr.,2186,2,Maharashtra,Kolhapur,57.14
+Maharashtra,Solapur Commr.,2186,3,Maharashtra,Latur,44.44
+Maharashtra,Solapur Rural,6235,1,Maharashtra,Solapur,70.0
+Maharashtra,Solapur Rural,6235,2,Maharashtra,Kolhapur,57.14
+Maharashtra,Solapur Rural,6235,3,Maharashtra,Latur,44.44
+Maharashtra,Thane Commr.,13227,1,Maharashtra,Thane,62.5
+Maharashtra,Thane Commr.,13227,2,Maharashtra,Bhandara,42.11
+Maharashtra,Thane Commr.,13227,3,Maharashtra,Chandrapur,38.1
+Maharashtra,Thane Rural,3641,1,Maharashtra,Thane,62.5
+Maharashtra,Thane Rural,3641,2,Maharashtra,Chandrapur,57.14
+Maharashtra,Thane Rural,3641,3,Maharashtra,Bhandara,52.63
+Manipur,C. I. D.,0,1,Manipur,Chandel,33.33
+Manipur,C. I. D.,0,2,Manipur,Kakching,30.77
+Manipur,C. I. D.,0,3,Manipur,Churachandpur,22.22
+Meghalaya,Garo Hills East,159,1,Meghalaya,East Garo Hills,66.67
+Meghalaya,Garo Hills East,159,2,Meghalaya,West Garo Hills,66.67
+Meghalaya,Garo Hills East,159,3,Meghalaya,South Garo Hills,64.52
+Meghalaya,Garo Hills North,165,1,Meghalaya,East Garo Hills,64.52
+Meghalaya,Garo Hills North,165,2,Meghalaya,West Garo Hills,64.52
+Meghalaya,Garo Hills North,165,3,Meghalaya,South Garo Hills,62.5
+Meghalaya,Garo Hills South,167,1,Meghalaya,East Garo Hills,64.52
+Meghalaya,Garo Hills South,167,2,Meghalaya,West Garo Hills,64.52
+Meghalaya,Garo Hills South,167,3,Meghalaya,South Garo Hills,62.5
+Meghalaya,Garo Hills South West,65,1,Meghalaya,East Garo Hills,55.56
+Meghalaya,Garo Hills South West,65,2,Meghalaya,West Garo Hills,55.56
+Meghalaya,Garo Hills South West,65,3,Meghalaya,South Garo Hills,54.05
+Meghalaya,Garo Hills West,532,1,Meghalaya,East Garo Hills,66.67
+Meghalaya,Garo Hills West,532,2,Meghalaya,West Garo Hills,66.67
+Meghalaya,Garo Hills West,532,3,Meghalaya,South Garo Hills,64.52
+Meghalaya,Jaintia Hills East,281,1,Meghalaya,West Jaintia Hills,72.22
+Meghalaya,Jaintia Hills East,281,2,Meghalaya,East Jaintia Hills,72.22
+Meghalaya,Jaintia Hills East,281,3,Meghalaya,East Garo Hills,54.55
+Meghalaya,Jaintia Hills West,292,1,Meghalaya,West Jaintia Hills,72.22
+Meghalaya,Jaintia Hills West,292,2,Meghalaya,East Jaintia Hills,72.22
+Meghalaya,Jaintia Hills West,292,3,Meghalaya,East Garo Hills,54.55
+Meghalaya,Khasi Hills East,1327,1,Meghalaya,East Khasi Hills,68.75
+Meghalaya,Khasi Hills East,1327,2,Meghalaya,West Khasi Hills,68.75
+Meghalaya,Khasi Hills East,1327,3,Meghalaya,South West Khasi Hills,57.89
+Meghalaya,Khasi Hills South West,60,1,Meghalaya,East Khasi Hills,57.89
+Meghalaya,Khasi Hills South West,60,2,Meghalaya,West Khasi Hills,57.89
+Meghalaya,Khasi Hills South West,60,3,Meghalaya,South West Khasi Hills,50.0
+Meghalaya,Khasi Hills West,271,1,Meghalaya,East Khasi Hills,68.75
+Meghalaya,Khasi Hills West,271,2,Meghalaya,West Khasi Hills,68.75
+Meghalaya,Khasi Hills West,271,3,Meghalaya,South West Khasi Hills,57.89
+Mizoram,Spl Traffic,20,1,Mizoram,Lawngtlai,40.0
+Mizoram,Spl Traffic,20,2,Mizoram,Saiha,37.5
+Mizoram,Spl Traffic,20,3,Mizoram,Champhai,31.58
+Odisha,Angul,2950,1,Odisha,Anugul,90.91
+Odisha,Angul,2950,2,Odisha,Nabarangpur,50.0
+Odisha,Angul,2950,3,Odisha,Balangir,46.15
+Odisha,Balasore,4305,1,Odisha,Balangir,62.5
+Odisha,Balasore,4305,2,Odisha,Baleshwar,58.82
+Odisha,Balasore,4305,3,Odisha,Bargarh,53.33
+Odisha,Baragarh,1817,1,Odisha,Bargarh,93.33
+Odisha,Baragarh,1817,2,Odisha,Nayagarh,75.0
+Odisha,Baragarh,1817,3,Odisha,Sundargarh,66.67
+Odisha,Berhampur,1709,1,Odisha,Nabarangpur,60.0
+Odisha,Berhampur,1709,2,Odisha,Sambalpur,55.56
+Odisha,Berhampur,1709,3,Odisha,Kendrapara,52.63
+Odisha,Bolangir,2379,1,Odisha,Balangir,87.5
+Odisha,Bolangir,2379,2,Odisha,Malkangiri,66.67
+Odisha,Bolangir,2379,3,Odisha,Bargarh,53.33
+Odisha,DCP BBSR,5478,1,Odisha,Baleshwar,35.29
+Odisha,DCP BBSR,5478,2,Odisha,Kendrapara,33.33
+Odisha,DCP BBSR,5478,3,Odisha,Puri,33.33
+Odisha,DCP CTC,2920,1,Odisha,Cuttack,28.57
+Odisha,DCP CTC,2920,2,Odisha,Koraput,28.57
+Odisha,DCP CTC,2920,3,Odisha,Gajapati,26.67
+Odisha,Jagatsinghpur,2345,1,Odisha,Jagatsinghapur,96.3
+Odisha,Jagatsinghpur,2345,2,Odisha,Jajapur,60.0
+Odisha,Jagatsinghpur,2345,3,Odisha,Nabarangpur,58.33
+Odisha,Jajpur,3174,1,Odisha,Jajapur,92.31
+Odisha,Jajpur,3174,2,Odisha,Puri,60.0
+Odisha,Jajpur,3174,3,Odisha,Sambalpur,53.33
+Odisha,Keonjhar,2571,1,Odisha,Kendujhar,82.35
+Odisha,Keonjhar,2571,2,Odisha,Kendrapara,55.56
+Odisha,Keonjhar,2571,3,Odisha,Deogarh,53.33
+Odisha,Khurda,2291,1,Odisha,Khordha,76.92
+Odisha,Khurda,2291,2,Odisha,Jharsuguda,50.0
+Odisha,Khurda,2291,3,Odisha,Nuapada,46.15
+Odisha,Rourkela,2670,1,Odisha,Sonepur,40.0
+Odisha,Rourkela,2670,2,Odisha,Kalahandi,35.29
+Odisha,Rourkela,2670,3,Odisha,Kendujhar,35.29
+Odisha,SRP (Cuttack),546,1,Odisha,Cuttack,77.78
+Odisha,SRP (Cuttack),546,2,Odisha,Koraput,44.44
+Odisha,SRP (Cuttack),546,3,Odisha,Bhadrak,33.33
+Odisha,SRP (Rourkela),460,1,Odisha,Sonepur,42.11
+Odisha,SRP (Rourkela),460,2,Odisha,Sambalpur,38.1
+Odisha,SRP (Rourkela),460,3,Odisha,Puri,37.5
+Puducherry,Puducherry,2913,1,Puducherry,Pondicherry,76.19
+Puducherry,Puducherry,2913,2,Puducherry,Mahe,28.57
+Puducherry,Puducherry,2913,3,Puducherry,Yanam,13.33
+Punjab,Amritsar Rural,1396,1,Punjab,Amritsar,72.73
+Punjab,Amritsar Rural,1396,2,Punjab,Sri Muktsar Sahib,51.61
+Punjab,Amritsar Rural,1396,3,Punjab,Tarn Taran,50.0
+Punjab,Batala,865,1,Punjab,Patiala,76.92
+Punjab,Batala,865,2,Punjab,Barnala,76.92
+Punjab,Batala,865,3,Punjab,Kapurthala,62.5
+Punjab,CP Amritsar,1998,1,Punjab,Amritsar,84.21
+Punjab,CP Amritsar,1998,2,Punjab,S.A.S Nagar,45.45
+Punjab,CP Amritsar,1998,3,Punjab,Patiala,44.44
+Punjab,CP Jalandhar,2020,1,Punjab,Jalandhar,85.71
+Punjab,CP Jalandhar,2020,2,Punjab,S.A.S Nagar,43.48
+Punjab,CP Jalandhar,2020,3,Punjab,Patiala,42.11
+Punjab,CP Ludhiana,3546,1,Punjab,Ludhiana,84.21
+Punjab,CP Ludhiana,3546,2,Punjab,Patiala,44.44
+Punjab,CP Ludhiana,3546,3,Punjab,Jalandhar,40.0
+Punjab,G. R. P.,372,1,Punjab,Gurdaspur,42.86
+Punjab,G. R. P.,372,2,Punjab,Sangrur,33.33
+Punjab,G. R. P.,372,3,Punjab,Rupnagar,30.77
+Punjab,Jalandhar Rural,1154,1,Punjab,Jalandhar,75.0
+Punjab,Jalandhar Rural,1154,2,Punjab,Sangrur,45.45
+Punjab,Jalandhar Rural,1154,3,Punjab,Fatehgarh Sahib,40.0
+Punjab,Khanna,1132,1,Punjab,Ludhiana,57.14
+Punjab,Khanna,1132,2,Punjab,Mansa,54.55
+Punjab,Khanna,1132,3,Punjab,Kapurthala,50.0
+Punjab,Ludhiana Rural,1081,1,Punjab,Ludhiana,72.73
+Punjab,Ludhiana Rural,1081,2,Punjab,Hoshiarpur,50.0
+Punjab,Ludhiana Rural,1081,3,Punjab,Sangrur,47.62
+Punjab,Muktsar,781,1,Punjab,Amritsar,66.67
+Punjab,Muktsar,781,2,Punjab,Sri Muktsar Sahib,58.33
+Punjab,Muktsar,781,3,Punjab,Mansa,50.0
+Punjab,Ropar,1122,1,Punjab,Rupnagar,61.54
+Punjab,Ropar,1122,2,Punjab,Ferozepur,57.14
+Punjab,Ropar,1122,3,Punjab,Amritsar,46.15
+Punjab,SAS Nagar,2408,1,Punjab,S.A.S Nagar,90.0
+Punjab,SAS Nagar,2408,2,Punjab,Sangrur,62.5
+Punjab,SAS Nagar,2408,3,Punjab,Rupnagar,58.82
+Punjab,SBS Nagar,659,1,Punjab,S.A.S Nagar,80.0
+Punjab,SBS Nagar,659,2,Punjab,Rupnagar,58.82
+Punjab,SBS Nagar,659,3,Punjab,Shahid Bhagat Singh Nagar,52.94
+Rajasthan,G.R.P.Ajmer,1313,1,Rajasthan,Ajmer,62.5
+Rajasthan,G.R.P.Ajmer,1313,2,Rajasthan,Barmer,47.06
+Rajasthan,G.R.P.Ajmer,1313,3,Rajasthan,Jaisalmer,40.0
+Rajasthan,G.R.P.Jodhpur,198,1,Rajasthan,Jodhpur,70.0
+Rajasthan,G.R.P.Jodhpur,198,2,Rajasthan,Dholpur,50.0
+Rajasthan,G.R.P.Jodhpur,198,3,Rajasthan,Dungarpur,45.45
+Rajasthan,Jaipur East,8759,1,Rajasthan,Jaipur,70.59
+Rajasthan,Jaipur East,8759,2,Rajasthan,Udaipur,55.56
+Rajasthan,Jaipur East,8759,3,Rajasthan,Jalore,47.06
+Rajasthan,Jaipur North,4120,1,Rajasthan,Jaipur,66.67
+Rajasthan,Jaipur North,4120,2,Rajasthan,Udaipur,52.63
+Rajasthan,Jaipur North,4120,3,Rajasthan,Jalore,44.44
+Rajasthan,Jaipur Rural,6625,1,Rajasthan,Jaipur,66.67
+Rajasthan,Jaipur Rural,6625,2,Rajasthan,Udaipur,52.63
+Rajasthan,Jaipur Rural,6625,3,Rajasthan,Jaisalmer,47.62
+Rajasthan,Jaipur South,5953,1,Rajasthan,Jaipur,66.67
+Rajasthan,Jaipur South,5953,2,Rajasthan,Udaipur,52.63
+Rajasthan,Jaipur South,5953,3,Rajasthan,Sirohi,44.44
+Rajasthan,Jaipur West,7238,1,Rajasthan,Jaipur,70.59
+Rajasthan,Jaipur West,7238,2,Rajasthan,Udaipur,55.56
+Rajasthan,Jaipur West,7238,3,Rajasthan,Jalore,47.06
+Rajasthan,Jodhpur East,2952,1,Rajasthan,Jodhpur,73.68
+Rajasthan,Jodhpur East,2952,2,Rajasthan,Dholpur,52.63
+Rajasthan,Jodhpur East,2952,3,Rajasthan,Jaipur,44.44
+Rajasthan,Jodhpur Rural,2693,1,Rajasthan,Jodhpur,70.0
+Rajasthan,Jodhpur Rural,2693,2,Rajasthan,Dholpur,50.0
+Rajasthan,Jodhpur Rural,2693,3,Rajasthan,Churu,44.44
+Rajasthan,Jodhpur West,3281,1,Rajasthan,Jodhpur,73.68
+Rajasthan,Jodhpur West,3281,2,Rajasthan,Dholpur,52.63
+Rajasthan,Jodhpur West,3281,3,Rajasthan,Jaipur,44.44
+Rajasthan,Kota City,5248,1,Rajasthan,Kota,61.54
+Rajasthan,Kota City,5248,2,Rajasthan,Karauli,37.5
+Rajasthan,Kota City,5248,3,Rajasthan,Pali,30.77
+Rajasthan,Kota Rural,2557,1,Rajasthan,Karauli,58.82
+Rajasthan,Kota Rural,2557,2,Rajasthan,Kota,57.14
+Rajasthan,Kota Rural,2557,3,Rajasthan,Dungarpur,42.11
+Rajasthan,Praapgarh,3124,1,Rajasthan,Pratapgarh,94.74
+Rajasthan,Praapgarh,3124,2,Rajasthan,Hanumangarh,60.0
+Rajasthan,Praapgarh,3124,3,Rajasthan,Nagaur,53.33
+Sikkim,CID,7,1,Sikkim,Namchi,44.44
+Sikkim,CID,7,2,Sikkim,Gyalshing,16.67
+Sikkim,CID,7,3,Sikkim,Gangtok,0.0
+Sikkim,East,589,1,Sikkim,Gangtok,36.36
+Sikkim,East,589,2,Sikkim,Gyalshing,30.77
+Sikkim,East,589,3,Sikkim,Mangan,20.0
+Sikkim,North,52,1,Sikkim,Namchi,36.36
+Sikkim,North,52,2,Sikkim,Gangtok,33.33
+Sikkim,North,52,3,Sikkim,Mangan,18.18
+Sikkim,South,290,1,Sikkim,Gyalshing,28.57
+Sikkim,South,290,2,Sikkim,Namchi,18.18
+Sikkim,South,290,3,Sikkim,Gangtok,16.67
+Sikkim,West,127,1,Sikkim,Gangtok,18.18
+Sikkim,West,127,2,Sikkim,Gyalshing,15.38
+Sikkim,West,127,3,Sikkim,Mangan,0.0
+Tamil Nadu,Coimbatore City,4281,1,Tamil Nadu,Coimbatore,80.0
+Tamil Nadu,Coimbatore City,4281,2,Tamil Nadu,Cuddalore,41.67
+Tamil Nadu,Coimbatore City,4281,3,Tamil Nadu,Kanniyakumari,35.71
+Tamil Nadu,Cyber Cell,3,1,Tamil Nadu,Erode,40.0
+Tamil Nadu,Cyber Cell,3,2,Tamil Nadu,Tirunelveli,38.1
+Tamil Nadu,Cyber Cell,3,3,Tamil Nadu,Vellore,35.29
+Tamil Nadu,Kanyakumari,4041,1,Tamil Nadu,Kanniyakumari,91.67
+Tamil Nadu,Kanyakumari,4041,2,Tamil Nadu,Kallakurichi,60.87
+Tamil Nadu,Kanyakumari,4041,3,Tamil Nadu,Thanjavur,50.0
+Tamil Nadu,Madurai City,3226,1,Tamil Nadu,Madurai,73.68
+Tamil Nadu,Madurai City,3226,2,Tamil Nadu,Kallakurichi,50.0
+Tamil Nadu,Madurai City,3226,3,Tamil Nadu,Dharmapuri,45.45
+Tamil Nadu,Nilgiris,1199,1,Tamil Nadu,The Nilgiris,80.0
+Tamil Nadu,Nilgiris,1199,2,Tamil Nadu,Krishnagiri,52.63
+Tamil Nadu,Nilgiris,1199,3,Tamil Nadu,Kanniyakumari,38.1
+Tamil Nadu,Other Units,0,1,Tamil Nadu,Theni,62.5
+Tamil Nadu,Other Units,0,2,Tamil Nadu,The Nilgiris,60.87
+Tamil Nadu,Other Units,0,3,Tamil Nadu,Tirunelveli,45.45
+Tamil Nadu,Pudukottai,3720,1,Tamil Nadu,Pudukkottai,95.24
+Tamil Nadu,Pudukottai,3720,2,Tamil Nadu,Madurai,47.06
+Tamil Nadu,Pudukottai,3720,3,Tamil Nadu,Nagapattinam,36.36
+Tamil Nadu,Railway Chennai,637,1,Tamil Nadu,Chennai,63.64
+Tamil Nadu,Railway Chennai,637,2,Tamil Nadu,Krishnagiri,46.15
+Tamil Nadu,Railway Chennai,637,3,Tamil Nadu,Tiruvannamalai,41.38
+Tamil Nadu,Railway Trichy,229,1,Tamil Nadu,Kallakurichi,53.85
+Tamil Nadu,Railway Trichy,229,2,Tamil Nadu,Ranipet,38.1
+Tamil Nadu,Railway Trichy,229,3,Tamil Nadu,Kanniyakumari,37.04
+Tamil Nadu,Ramnathapuram,3819,1,Tamil Nadu,Ramanathapuram,96.3
+Tamil Nadu,Ramnathapuram,3819,2,Tamil Nadu,Kanchipuram,66.67
+Tamil Nadu,Ramnathapuram,3819,3,Tamil Nadu,Dharmapuri,52.17
+Tamil Nadu,Salem City,4504,1,Tamil Nadu,Salem,66.67
+Tamil Nadu,Salem City,4504,2,Tamil Nadu,Kallakurichi,36.36
+Tamil Nadu,Salem City,4504,3,Tamil Nadu,Ranipet,35.29
+Tamil Nadu,Sivagangai,3738,1,Tamil Nadu,Sivaganga,94.74
+Tamil Nadu,Sivagangai,3738,2,Tamil Nadu,Tiruvannamalai,50.0
+Tamil Nadu,Sivagangai,3738,3,Tamil Nadu,Nagapattinam,45.45
+Tamil Nadu,Thirunelveli,8490,1,Tamil Nadu,Tirunelveli,95.65
+Tamil Nadu,Thirunelveli,8490,2,Tamil Nadu,Thiruvallur,60.87
+Tamil Nadu,Thirunelveli,8490,3,Tamil Nadu,Thiruvarur,54.55
+Tamil Nadu,Thirunelveli City,1623,1,Tamil Nadu,Tirunelveli,78.57
+Tamil Nadu,Thirunelveli City,1623,2,Tamil Nadu,Thiruvallur,50.0
+Tamil Nadu,Thirunelveli City,1623,3,Tamil Nadu,Tiruvannamalai,45.16
+Tamil Nadu,Thiruvannamalai,4411,1,Tamil Nadu,Tiruvannamalai,96.55
+Tamil Nadu,Thiruvannamalai,4411,2,Tamil Nadu,Thiruvallur,61.54
+Tamil Nadu,Thiruvannamalai,4411,3,Tamil Nadu,Thiruvarur,56.0
+Tamil Nadu,Thoothugudi,5344,1,Tamil Nadu,Thiruvarur,38.1
+Tamil Nadu,Thoothugudi,5344,2,Tamil Nadu,Tirupathur,38.1
+Tamil Nadu,Thoothugudi,5344,3,Tamil Nadu,Theni,37.5
+Tamil Nadu,Tiruppur City,2490,1,Tamil Nadu,Tiruppur,76.19
+Tamil Nadu,Tiruppur City,2490,2,Tamil Nadu,Tirupathur,60.87
+Tamil Nadu,Tiruppur City,2490,3,Tamil Nadu,Thiruvarur,52.17
+Tamil Nadu,Trichy,4688,1,Tamil Nadu,Kallakurichi,44.44
+Tamil Nadu,Trichy,4688,2,Tamil Nadu,Ariyalur,42.86
+Tamil Nadu,Trichy,4688,3,Tamil Nadu,Tuticorin,40.0
+Tamil Nadu,Trichy City,3074,1,Tamil Nadu,Kallakurichi,43.48
+Tamil Nadu,Trichy City,3074,2,Tamil Nadu,Tiruchirappalli,38.46
+Tamil Nadu,Trichy City,3074,3,Tamil Nadu,Krishnagiri,36.36
+Telangana,Cyberabad,19311,1,Telangana,Hyderabad,77.78
+Telangana,Cyberabad,19311,2,Telangana,Vikarabad,55.56
+Telangana,Cyberabad,19311,3,Telangana,Mahabubabad,50.0
+Telangana,Hyderabad City,18940,1,Telangana,Hyderabad,78.26
+Telangana,Hyderabad City,18940,2,Telangana,Adilabad,45.45
+Telangana,Hyderabad City,18940,3,Telangana,Vikarabad,43.48
+Telangana,Mahaboob Nagar,7533,1,Telangana,Mahabubnagar,84.62
+Telangana,Mahaboob Nagar,7533,2,Telangana,Mahabubabad,64.0
+Telangana,Mahaboob Nagar,7533,3,Telangana,Karimnagar,50.0
+Telangana,Secunderabad Railway,860,1,Telangana,Hyderabad,48.28
+Telangana,Secunderabad Railway,860,2,Telangana,Rajanna Sircilla,44.44
+Telangana,Secunderabad Railway,860,3,Telangana,Jogulamba Gadwal,38.89
+Telangana,Warangal Urban,3792,1,Telangana,Warangal,72.73
+Telangana,Warangal Urban,3792,2,Telangana,Ranga Reddy,56.0
+Telangana,Warangal Urban,3792,3,Telangana,Karimnagar,50.0
+Tripura,G. R. P.,9,1,Tripura,West Tripura,35.29
+Tripura,G. R. P.,9,2,Tripura,North Tripura,33.33
+Tripura,G. R. P.,9,3,Tripura,South Tripura,33.33
+Tripura,Kowai,338,1,Tripura,Khowai,90.91
+Tripura,Kowai,338,2,Tripura,Gomati,54.55
+Tripura,Kowai,338,3,Tripura,Unakoti,50.0
+Tripura,North,510,1,Tripura,North Tripura,55.56
+Tripura,North,510,2,Tripura,Unakoti,50.0
+Tripura,North,510,3,Tripura,Gomati,36.36
+Tripura,Sipahijala,725,1,Tripura,Sepahijala,90.0
+Tripura,Sipahijala,725,2,Tripura,Dhalai,50.0
+Tripura,Sipahijala,725,3,Tripura,West Tripura,36.36
+Tripura,South,678,1,Tripura,South Tripura,55.56
+Tripura,South,678,2,Tripura,Gomati,36.36
+Tripura,South,678,3,Tripura,North Tripura,33.33
+Tripura,West,1650,1,Tripura,West Tripura,50.0
+Tripura,West,1650,2,Tripura,South Tripura,23.53
+Tripura,West,1650,3,Tripura,Khowai,20.0
+Uttar Pradesh,Allahabad,9909,1,Uttar Pradesh,Farrukhabad,60.0
+Uttar Pradesh,Allahabad,9909,2,Uttar Pradesh,Ghaziabad,55.56
+Uttar Pradesh,Allahabad,9909,3,Uttar Pradesh,Moradabad,55.56
+Uttar Pradesh,Badaun,2919,1,Uttar Pradesh,Budaun,83.33
+Uttar Pradesh,Badaun,2919,2,Uttar Pradesh,Banda,72.73
+Uttar Pradesh,Badaun,2919,3,Uttar Pradesh,Jalaun,66.67
+Uttar Pradesh,Bulandshahar,4775,1,Uttar Pradesh,Bulandshahr,95.65
+Uttar Pradesh,Bulandshahar,4775,2,Uttar Pradesh,Banda,58.82
+Uttar Pradesh,Bulandshahar,4775,3,Uttar Pradesh,Kushi Nagar,52.17
+Uttar Pradesh,Chandoli,1366,1,Uttar Pradesh,Chandauli,82.35
+Uttar Pradesh,Chandoli,1366,2,Uttar Pradesh,Hardoi,71.43
+Uttar Pradesh,Chandoli,1366,3,Uttar Pradesh,Bhadohi,66.67
+Uttar Pradesh,Faizabad,2426,1,Uttar Pradesh,Firozabad,82.35
+Uttar Pradesh,Faizabad,2426,2,Uttar Pradesh,Ghaziabad,70.59
+Uttar Pradesh,Faizabad,2426,3,Uttar Pradesh,Farrukhabad,63.16
+Uttar Pradesh,Fatehgarh,2151,1,Uttar Pradesh,Fatehpur,70.59
+Uttar Pradesh,Fatehgarh,2151,2,Uttar Pradesh,Pratapgarh,63.16
+Uttar Pradesh,Fatehgarh,2151,3,Uttar Pradesh,Aligarh,62.5
+Uttar Pradesh,G. R. P.,5158,1,Uttar Pradesh,Agra,44.44
+Uttar Pradesh,G. R. P.,5158,2,Uttar Pradesh,Gorakhpur,42.86
+Uttar Pradesh,G. R. P.,5158,3,Uttar Pradesh,Rampur,36.36
+Uttar Pradesh,Gautambudh Nagar,8521,1,Uttar Pradesh,Gautam Buddha Nagar,91.43
+Uttar Pradesh,Gautambudh Nagar,8521,2,Uttar Pradesh,Ambedkar Nagar,66.67
+Uttar Pradesh,Gautambudh Nagar,8521,3,Uttar Pradesh,Sant Kabeer Nagar,60.61
+Uttar Pradesh,Khiri,3465,1,Uttar Pradesh,Kheri,80.0
+Uttar Pradesh,Khiri,3465,2,Uttar Pradesh,Kushi Nagar,50.0
+Uttar Pradesh,Khiri,3465,3,Uttar Pradesh,Ghazipur,46.15
+Uttar Pradesh,Raibareilly,2053,1,Uttar Pradesh,Bareilly,84.21
+Uttar Pradesh,Raibareilly,2053,2,Uttar Pradesh,Rae Bareli,66.67
+Uttar Pradesh,Raibareilly,2053,3,Uttar Pradesh,Ballia,47.06
+Uttar Pradesh,Sant Kabirnagar,727,1,Uttar Pradesh,Sant Kabeer Nagar,87.5
+Uttar Pradesh,Sant Kabirnagar,727,2,Uttar Pradesh,Ambedkar Nagar,62.07
+Uttar Pradesh,Sant Kabirnagar,727,3,Uttar Pradesh,Siddharth Nagar,60.0
+Uttar Pradesh,Shrawasti,801,1,Uttar Pradesh,Shravasti,88.89
+Uttar Pradesh,Shrawasti,801,2,Uttar Pradesh,Varanasi,58.82
+Uttar Pradesh,Shrawasti,801,3,Uttar Pradesh,Basti,57.14
+Uttar Pradesh,Sidharthnagar,773,1,Uttar Pradesh,Siddharth Nagar,92.86
+Uttar Pradesh,Sidharthnagar,773,2,Uttar Pradesh,Ambedkar Nagar,59.26
+Uttar Pradesh,Sidharthnagar,773,3,Uttar Pradesh,Kushi Nagar,58.33
+Uttar Pradesh,St.Ravidasnagar,574,1,Uttar Pradesh,Siddharth Nagar,60.0
+Uttar Pradesh,St.Ravidasnagar,574,2,Uttar Pradesh,Sant Kabeer Nagar,56.25
+Uttar Pradesh,St.Ravidasnagar,574,3,Uttar Pradesh,Kushi Nagar,53.85
+Uttarakhand,Udhamsingh Nagar,2234,1,Uttarakhand,Udam Singh Nagar,93.75
+Uttarakhand,Udhamsingh Nagar,2234,2,Uttarakhand,Rudra Prayag,42.86
+Uttarakhand,Udhamsingh Nagar,2234,3,Uttarakhand,Haridwar,41.67
+Uttarakhand,Uttarkashi,92,1,Uttarakhand,Uttar Kashi,95.24
+Uttarakhand,Uttarkashi,92,2,Uttarakhand,Pithoragarh,38.1
+Uttarakhand,Uttarkashi,92,3,Uttarakhand,Almora,37.5
+West Bengal,Asansol-Durgapur PC,4738,1,West Bengal,Bankura,38.46
+West Bengal,Asansol-Durgapur PC,4738,2,West Bengal,Alipurduar,34.48
+West Bengal,Asansol-Durgapur PC,4738,3,West Bengal,Dinajpur Uttar,30.3
+West Bengal,Barrackpur PC,8087,1,West Bengal,Bankura,40.0
+West Bengal,Barrackpur PC,8087,2,West Bengal,Jhargram,38.1
+West Bengal,Barrackpur PC,8087,3,West Bengal,Dinajpur Uttar,37.04
+West Bengal,Bidhannagar PC,3014,1,West Bengal,Bankura,38.1
+West Bengal,Bidhannagar PC,3014,2,West Bengal,Dinajpur Uttar,35.71
+West Bengal,Bidhannagar PC,3014,3,West Bengal,Purba Bardhaman,34.48
+West Bengal,Burdwan,7694,1,West Bengal,Bankura,57.14
+West Bengal,Burdwan,7694,2,West Bengal,Alipurduar,47.06
+West Bengal,Burdwan,7694,3,West Bengal,Purba Bardhaman,45.45
+West Bengal,Dakshin Dinajpur,2372,1,West Bengal,Dinajpur Uttar,53.33
+West Bengal,Dakshin Dinajpur,2372,2,West Bengal,Dinajpur Dakshin,50.0
+West Bengal,Dakshin Dinajpur,2372,3,West Bengal,Medinipur East,40.0
+West Bengal,Howrah G. R. P.,5259,1,West Bengal,Howrah,66.67
+West Bengal,Howrah G. R. P.,5259,2,West Bengal,Hooghly,31.58
+West Bengal,Howrah G. R. P.,5259,3,West Bengal,Jhargram,30.0
+West Bengal,Howrah PC,6273,1,West Bengal,Howrah,80.0
+West Bengal,Howrah PC,6273,2,West Bengal,Hooghly,37.5
+West Bengal,Howrah PC,6273,3,West Bengal,Jhargram,35.29
+West Bengal,Howrah Rural,445,1,West Bengal,Howrah,66.67
+West Bengal,Howrah Rural,445,2,West Bengal,Bankura,42.11
+West Bengal,Howrah Rural,445,3,West Bengal,Hooghly,42.11
+West Bengal,Jhargram Police District,803,1,West Bengal,Jhargram,50.0
+West Bengal,Jhargram Police District,803,2,West Bengal,24 Paraganas South,33.33
+West Bengal,Jhargram Police District,803,3,West Bengal,Medinipur East,31.58
+West Bengal,Kharagpur G. R. P.,213,1,West Bengal,Dinajpur Uttar,41.38
+West Bengal,Kharagpur G. R. P.,213,2,West Bengal,Jalpaiguri,40.0
+West Bengal,Kharagpur G. R. P.,213,3,West Bengal,Alipurduar,40.0
+West Bengal,Malda,6432,1,West Bengal,Maldah,90.91
+West Bengal,Malda,6432,2,West Bengal,Nadia,60.0
+West Bengal,Malda,6432,3,West Bengal,Alipurduar,53.33
+West Bengal,North 24 Parganas,14867,1,West Bengal,24 Paraganas North,62.86
+West Bengal,North 24 Parganas,14867,2,West Bengal,24 Paraganas South,62.86
+West Bengal,North 24 Parganas,14867,3,West Bengal,Jhargram,40.0
+West Bengal,Paschim Medinipur,5791,1,West Bengal,Paschim Bardhaman,58.82
+West Bengal,Paschim Medinipur,5791,2,West Bengal,Medinipur East,58.06
+West Bengal,Paschim Medinipur,5791,3,West Bengal,Medinipur West,58.06
+West Bengal,Purab Medinipur,6778,1,West Bengal,Medinipur East,62.07
+West Bengal,Purab Medinipur,6778,2,West Bengal,Medinipur West,62.07
+West Bengal,Purab Medinipur,6778,3,West Bengal,Purba Bardhaman,46.67
+West Bengal,Sealdah G. R. P.,655,1,West Bengal,Maldah,52.63
+West Bengal,Sealdah G. R. P.,655,2,West Bengal,Jalpaiguri,43.48
+West Bengal,Sealdah G. R. P.,655,3,West Bengal,Alipurduar,43.48
+West Bengal,Siliguri G. R. P.,220,1,West Bengal,Jalpaiguri,50.0
+West Bengal,Siliguri G. R. P.,220,2,West Bengal,Alipurduar,41.67
+West Bengal,Siliguri G. R. P.,220,3,West Bengal,Dinajpur Uttar,35.71
+West Bengal,Siliguri PC,4623,1,West Bengal,Jalpaiguri,57.14
+West Bengal,Siliguri PC,4623,2,West Bengal,Medinipur East,40.0
+West Bengal,Siliguri PC,4623,3,West Bengal,Medinipur West,40.0
+West Bengal,South 24 Parganas,21049,1,West Bengal,24 Paraganas North,62.86
+West Bengal,South 24 Parganas,21049,2,West Bengal,24 Paraganas South,62.86
+West Bengal,South 24 Parganas,21049,3,West Bengal,Jhargram,40.0
+West Bengal,Uttar Dinajpur,8312,1,West Bengal,Dinajpur Uttar,57.14
+West Bengal,Uttar Dinajpur,8312,2,West Bengal,Dinajpur Dakshin,53.33
+West Bengal,Uttar Dinajpur,8312,3,West Bengal,Medinipur East,42.86

@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SafeHer-AI | Women Safety Risk Map</title>
+
+    <!-- Leaflet CSS -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+
+
+        /* =========================================
+           HEADER
+        ========================================= */
+
+        .header {
+            height: 75px;
+            background: #111827;
+            color: white;
+            padding: 14px 25px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .header p {
+            margin: 5px 0 0;
+            color: #d1d5db;
+            font-size: 13px;
+        }
+
+
+        /* =========================================
+           TOP INFORMATION BAR
+        ========================================= */
+
+        .info-bar {
+            min-height: 55px;
+            background: white;
+
+            display: flex;
+            align-items: center;
+
+            gap: 25px;
+
+            padding: 8px 25px;
+
+            border-bottom: 1px solid #ddd;
+
+            flex-wrap: wrap;
+        }
+
+        .map-title {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+
+        /* =========================================
+           LEGEND
+        ========================================= */
+
+        .legend {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .box {
+            width: 18px;
+            height: 18px;
+            border-radius: 3px;
+        }
+
+        .low {
+            background: #22c55e;
+        }
+
+        .medium {
+            background: #f59e0b;
+        }
+
+        .high {
+            background: #ef4444;
+        }
+
+
+        /* =========================================
+           MAP
+        ========================================= */
+
+        #map {
+            height: calc(100vh - 130px);
+            width: 100%;
+        }
+
+
+        /* =========================================
+           RISK SUMMARY PANEL
+        ========================================= */
+
+        .summary-panel {
+
+            position: absolute;
+
+            top: 145px;
+            right: 20px;
+
+            z-index: 1000;
+
+            background: white;
+
+            width: 210px;
+
+            padding: 15px;
+
+            border-radius: 8px;
+
+            box-shadow:
+                0 2px 10px rgba(0, 0, 0, 0.25);
+        }
+
+        .summary-title {
+
+            font-size: 16px;
+
+            font-weight: bold;
+
+            margin-bottom: 12px;
+        }
+
+        .summary-row {
+
+            display: flex;
+
+            justify-content: space-between;
+
+            align-items: center;
+
+            padding: 7px 0;
+
+            border-bottom: 1px solid #eee;
+        }
+
+        .summary-label {
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 7px;
+        }
+
+        .summary-dot {
+
+            width: 12px;
+            height: 12px;
+
+            border-radius: 50%;
+        }
+
+        .summary-number {
+
+            font-weight: bold;
+        }
+
+        .total-row {
+
+            margin-top: 8px;
+
+            font-weight: bold;
+
+            display: flex;
+
+            justify-content: space-between;
+        }
+
+
+        /* =========================================
+           DISCLAIMER
+        ========================================= */
+
+        .disclaimer {
+
+            font-size: 10px;
+
+            color: #6b7280;
+
+            margin-top: 10px;
+
+            line-height: 1.4;
+        }
+
+
+        /* =========================================
+           POPUP
+        ========================================= */
+
+        .popup-title {
+
+            font-size: 17px;
+
+            font-weight: bold;
+
+            margin-bottom: 10px;
+        }
+
+        .popup-row {
+
+            margin: 6px 0;
+        }
+
+        .risk {
+
+            font-weight: bold;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================================
+         HEADER
+    ========================================= -->
+
+    <div class="header">
+
+        <h1>SafeHer-AI</h1>
+
+        <p>
+            Geo-Fenced Emergency Alert and Safety Assistance System for Women
+        </p>
+
+    </div>
+
+
+    <!-- =========================================
+         INFORMATION BAR
+    ========================================= -->
+
+    <div class="info-bar">
+
+        <div class="map-title">
+            2014 Predicted Risk Map
+        </div>
+
+
+        <div class="legend">
+
+            <span class="box low"></span>
+
+            LOW
+
+        </div>
+
+
+        <div class="legend">
+
+            <span class="box medium"></span>
+
+            MEDIUM
+
+        </div>
+
+
+        <div class="legend">
+
+            <span class="box high"></span>
+
+            HIGH
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================
+         RISK SUMMARY
+    ========================================= -->
+
+    <div class="summary-panel">
+
+        <div class="summary-title">
+            Risk Summary
+        </div>
+
+
+        <div class="summary-row">
+
+            <div class="summary-label">
+
+                <span class="summary-dot high"></span>
+
+                HIGH
+
+            </div>
+
+            <div
+                class="summary-number"
+                id="highCount"
+            >
+                0
+            </div>
+
+        </div>
+
+
+        <div class="summary-row">
+
+            <div class="summary-label">
+
+                <span class="summary-dot medium"></span>
+
+                MEDIUM
+
+            </div>
+
+            <div
+                class="summary-number"
+                id="mediumCount"
+            >
+                0
+            </div>
+
+        </div>
+
+
+        <div class="summary-row">
+
+            <div class="summary-label">
+
+                <span class="summary-dot low"></span>
+
+                LOW
+
+            </div>
+
+            <div
+                class="summary-number"
+                id="lowCount"
+            >
+                0
+            </div>
+
+        </div>
+
+
+        <div class="total-row">
+
+            <span>
+                Mapped
+            </span>
+
+            <span id="totalCount">
+                0
+            </span>
+
+        </div>
+
+
+        <div class="disclaimer">
+
+            Risk bands represent model-based estimates
+            derived from historical crime data and should
+            not be interpreted as absolute measures of safety.
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================
+         MAP CONTAINER
+    ========================================= -->
+
+    <div id="map"></div>
+
+
+    <!-- =========================================
+         LEAFLET JS
+    ========================================= -->
+
+    <script
+        src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+    </script>
+
+
+    <script>
+
+
+        // =========================================
+        // INITIALIZE MAP
+        // =========================================
+
+        const map = L.map("map").setView(
+            [22.5, 79.0],
+            5
+        );
+
+
+        // =========================================
+        // OPEN STREET MAP
+        // =========================================
+
+        L.tileLayer(
+
+            "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+
+            {
+
+                maxZoom: 18,
+
+                attribution:
+                    "&copy; OpenStreetMap contributors"
+
+            }
+
+        ).addTo(map);
+
+
+        // =========================================
+        // RISK COLOR FUNCTION
+        // =========================================
+
+        function getRiskColor(risk) {
+
+            if (risk === "HIGH") {
+
+                return "#ef4444";
+
+            }
+
+            if (risk === "MEDIUM") {
+
+                return "#f59e0b";
+
+            }
+
+            if (risk === "LOW") {
+
+                return "#22c55e";
+
+            }
+
+            return "#9ca3af";
+
+        }
+
+
+        // =========================================
+        // DISTRICT STYLE
+        // =========================================
+
+        function districtStyle(feature) {
+
+            const risk =
+                feature.properties.PREDICTED_RISK_BAND;
+
+
+            return {
+
+                fillColor:
+                    getRiskColor(risk),
+
+                weight: 1,
+
+                opacity: 1,
+
+                color: "#333",
+
+                fillOpacity: 0.65
+
+            };
+
+        }
+
+
+        // =========================================
+        // DISTRICT POPUP
+        // =========================================
+
+        function onEachDistrict(
+            feature,
+            layer
+        ) {
+
+            const properties =
+                feature.properties;
+
+
+            const district =
+                properties.district ||
+                "Unknown";
+
+
+            const state =
+                properties.state_name ||
+                "Unknown";
+
+
+            const risk =
+                properties.PREDICTED_RISK_BAND ||
+                "Unknown";
+
+
+            const prediction =
+                properties
+                    .PREDICTED_WOMEN_CRIME_SHARE_CLIPPED;
+
+
+            let predictionText =
+                "N/A";
+
+
+            if (
+                prediction !== null &&
+                prediction !== undefined
+            ) {
+
+                predictionText =
+
+                    (
+                        Number(prediction) * 100
+                    )
+                    .toFixed(2) + "%";
+
+            }
+
+
+            // =====================================
+            // POPUP CONTENT
+            // =====================================
+
+            layer.bindPopup(`
+
+                <div class="popup-title">
+
+                    ${district}
+
+                </div>
+
+
+                <div class="popup-row">
+
+                    <b>State:</b>
+                    ${state}
+
+                </div>
+
+
+                <div class="popup-row">
+
+                    <b>Prediction Year:</b>
+                    2014
+
+                </div>
+
+
+                <div class="popup-row">
+
+                    <b>
+                        Predicted Women-Crime Share:
+                    </b>
+
+                    ${predictionText}
+
+                </div>
+
+
+                <div class="popup-row">
+
+                    <b>Risk Band:</b>
+
+                    <span
+                        class="risk"
+                        style="
+                            color:${getRiskColor(risk)}
+                        "
+                    >
+
+                        ${risk}
+
+                    </span>
+
+                </div>
+
+            `);
+
+
+            // =====================================
+            // HOVER EFFECT
+            // =====================================
+
+            layer.on({
+
+                mouseover: function(event) {
+
+                    event.target.setStyle({
+
+                        weight: 3,
+
+                        color: "#111",
+
+                        fillOpacity: 0.85
+
+                    });
+
+                    event.target.bringToFront();
+
+                },
+
+
+                mouseout: function(event) {
+
+                    event.target.setStyle(
+                        districtStyle(feature)
+                    );
+
+                }
+
+            });
+
+        }
+
+
+        // =========================================
+        // LOAD GEOJSON
+        // =========================================
+
+        fetch(
+            "data/safeher_2014_risk_layer.geojson"
+        )
+
+        .then(response => {
+
+            if (!response.ok) {
+
+                throw new Error(
+                    "Could not load SafeHer GIS data"
+                );
+
+            }
+
+            return response.json();
+
+        })
+
+
+        .then(data => {
+
+            console.log(
+                "SafeHer GeoJSON loaded:",
+                data
+            );
+
+
+            // =====================================
+            // COUNT RISK BANDS
+            // =====================================
+
+            let high = 0;
+
+            let medium = 0;
+
+            let low = 0;
+
+
+            data.features.forEach(
+                feature => {
+
+                    const risk =
+                        feature
+                            .properties
+                            .PREDICTED_RISK_BAND;
+
+
+                    if (risk === "HIGH") {
+
+                        high++;
+
+                    }
+
+                    else if (risk === "MEDIUM") {
+
+                        medium++;
+
+                    }
+
+                    else if (risk === "LOW") {
+
+                        low++;
+
+                    }
+
+                }
+            );
+
+
+            // =====================================
+            // UPDATE SUMMARY
+            // =====================================
+
+            document
+                .getElementById("highCount")
+                .textContent = high;
+
+
+            document
+                .getElementById("mediumCount")
+                .textContent = medium;
+
+
+            document
+                .getElementById("lowCount")
+                .textContent = low;
+
+
+            document
+                .getElementById("totalCount")
+                .textContent =
+                    data.features.length;
+
+
+            // =====================================
+            // ADD RISK POLYGONS
+            // =====================================
+
+            L.geoJSON(
+
+                data,
+
+                {
+
+                    style:
+                        districtStyle,
+
+                    onEachFeature:
+                        onEachDistrict
+
+                }
+
+            ).addTo(map);
+
+
+            // =====================================
+            // IMPORTANT
+            // =====================================
+            //
+            // We intentionally DO NOT use
+            // map.fitBounds() here.
+            //
+            // The map remains at the India-level
+            // starting position defined above.
+            //
+            // =====================================
+
+        })
+
+
+        // =========================================
+        // ERROR HANDLING
+        // =========================================
+
+        .catch(error => {
+
+            console.error(error);
+
+            alert(
+                "Unable to load SafeHer-AI GIS data."
+            );
+
+        });
+
+
+    </script>
+
+
+</body>
+
+</html>

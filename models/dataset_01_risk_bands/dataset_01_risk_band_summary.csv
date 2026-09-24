@@ -1,0 +1,11 @@
+METRIC,VALUE
+Test records,748.0
+Low-medium threshold,0.06540243541066049
+Medium-high threshold,0.10369781780190997
+Actual low records,189.0
+Actual medium records,253.0
+Actual high records,306.0
+Predicted low records,182.0
+Predicted medium records,252.0
+Predicted high records,314.0
+Risk-band agreement percentage,69.25133689839572
