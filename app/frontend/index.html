@@ -12,6 +12,10 @@
 
 <body>
 
+    <!-- =========================================================
+         HEADER
+         ========================================================= -->
+
     <header class="header">
 
         <div>
@@ -30,7 +34,16 @@
     </header>
 
 
+    <!-- =========================================================
+         MAIN CONTENT
+         ========================================================= -->
+
     <main class="container">
+
+
+        <!-- =====================================================
+             LOCATION CHECK
+             ===================================================== -->
 
         <section class="hero">
 
@@ -40,12 +53,37 @@
                 Check the model-based risk estimate for your current location.
             </p>
 
-            <button id="locationButton">
+
+            <!-- REAL LOCATION -->
+
+            <button id="locationButton" type="button">
                 📍 Check My Location
             </button>
 
+
+            <!-- DEMO LOCATION -->
+
+            <button
+                id="demoButton"
+                class="demo-button"
+                type="button">
+
+                🧪 Test HIGH-Risk Location
+
+            </button>
+
+
+            <p class="demo-note">
+                Demo mode uses a verified mapped test location
+                for demonstrating the complete risk-assessment workflow.
+            </p>
+
         </section>
 
+
+        <!-- =====================================================
+             LOADING
+             ===================================================== -->
 
         <section id="loading" class="card hidden">
 
@@ -58,34 +96,66 @@
         </section>
 
 
+        <!-- =====================================================
+             RISK RESULT
+             ===================================================== -->
+
         <section id="resultCard" class="card hidden">
 
             <h2>Location Assessment</h2>
 
+
+            <!-- LOCATION DETAILS -->
+
             <div class="location-grid">
 
                 <div>
-                    <span class="label">State</span>
-                    <strong id="state">-</strong>
+                    <span class="label">
+                        State
+                    </span>
+
+                    <strong id="state">
+                        -
+                    </strong>
                 </div>
 
-                <div>
-                    <span class="label">District</span>
-                    <strong id="district">-</strong>
-                </div>
 
                 <div>
-                    <span class="label">Latitude</span>
-                    <strong id="latitude">-</strong>
+                    <span class="label">
+                        District
+                    </span>
+
+                    <strong id="district">
+                        -
+                    </strong>
                 </div>
 
+
                 <div>
-                    <span class="label">Longitude</span>
-                    <strong id="longitude">-</strong>
+                    <span class="label">
+                        Latitude
+                    </span>
+
+                    <strong id="latitude">
+                        -
+                    </strong>
+                </div>
+
+
+                <div>
+                    <span class="label">
+                        Longitude
+                    </span>
+
+                    <strong id="longitude">
+                        -
+                    </strong>
                 </div>
 
             </div>
 
+
+            <!-- RISK INFORMATION -->
 
             <div class="risk-box">
 
@@ -97,54 +167,143 @@
                     -
                 </strong>
 
-                <div id="riskBand" class="risk-band">
+
+                <div
+                    id="riskBand"
+                    class="risk-band">
+
                     -
+
                 </div>
 
             </div>
 
 
-            <p id="resultMessage" class="message"></p>
+            <!-- BACKEND MESSAGE -->
+
+            <p
+                id="resultMessage"
+                class="message">
+            </p>
+
+
+            <!-- =================================================
+                 RISK WARNING
+                 ================================================= -->
+
+            <div
+                id="warningBox"
+                class="warning-box hidden">
+
+                <h3 id="warningTitle">
+                    Safety Information
+                </h3>
+
+                <p id="warningMessage">
+                </p>
+
+            </div>
+
+
+            <!-- =================================================
+                 EMERGENCY ASSISTANCE
+                 ================================================= -->
+
+            <div
+                id="emergencyBox"
+                class="emergency-box hidden">
+
+                <h3>
+                    🆘 Emergency Assistance
+                </h3>
+
+                <p>
+                    If you feel unsafe or are facing an emergency,
+                    you can use the emergency assistance option.
+                </p>
+
+
+                <button
+                    id="sosButton"
+                    class="sos-button"
+                    type="button">
+
+                    🆘 SOS
+
+                </button>
+
+            </div>
 
         </section>
 
 
-        <section id="outsideCard" class="card hidden">
+        <!-- =====================================================
+             LOCATION NOT MAPPED
+             ===================================================== -->
 
-            <h2>Location Not Mapped</h2>
+        <section
+            id="outsideCard"
+            class="card hidden">
+
+            <h2>
+                Location Not Mapped
+            </h2>
 
             <p id="outsideMessage">
-                This location is outside the currently mapped SafeHer-AI
-                risk zones.
+
+                This location is outside the currently mapped
+                SafeHer-AI risk zones.
+
             </p>
 
         </section>
 
 
-        <section id="errorCard" class="card error hidden">
+        <!-- =====================================================
+             ERROR
+             ===================================================== -->
 
-            <h2>Unable to Check Location</h2>
+        <section
+            id="errorCard"
+            class="card error hidden">
 
-            <p id="errorMessage"></p>
+            <h2>
+                Unable to Check Location
+            </h2>
+
+            <p id="errorMessage">
+            </p>
 
         </section>
 
 
+        <!-- =====================================================
+             INFORMATION
+             ===================================================== -->
+
         <section class="info-card">
 
-            <h3>About the Risk Estimate</h3>
+            <h3>
+                About the Risk Estimate
+            </h3>
 
             <p>
-                The displayed risk band is a model-based estimate derived
-                from historical crime data and mapped GIS boundaries.
-                It should not be interpreted as an absolute measure of
-                personal safety.
+
+                The displayed risk band is a model-based estimate
+                derived from historical crime data and mapped GIS
+                boundaries. It should not be interpreted as an
+                absolute measure of personal safety.
+
             </p>
 
         </section>
 
     </main>
 
+
+    <!-- =========================================================
+         FOOTER
+         ========================================================= -->
 
     <footer>
 
@@ -155,7 +314,11 @@
     </footer>
 
 
-    <script src="app.js"></script>
+    <!-- =========================================================
+         JAVASCRIPT
+         ========================================================= -->
+
+    <script src="app.js?v=2"></script>
 
 </body>
 

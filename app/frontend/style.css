@@ -312,3 +312,110 @@ footer {
     }
 
 }
+/* ============================================================
+   DEMO LOCATION BUTTON
+   ============================================================ */
+
+.demo-button {
+    margin-top: 12px;
+    padding: 12px 20px;
+    border: 1px solid #64748b;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #1e293b;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.demo-button:hover {
+    background: #f1f5f9;
+}
+
+.demo-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+
+/* ============================================================
+   DEMO NOTE
+   ============================================================ */
+
+.demo-note {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #64748b;
+}
+
+
+/* ============================================================
+   RISK WARNING SYSTEM
+   ============================================================ */
+
+.warning-box {
+    margin-top: 20px;
+    padding: 18px;
+    border-radius: 12px;
+    border-left: 5px solid #f59e0b;
+    background: #fff7ed;
+}
+
+.warning-box h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.warning-box p {
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+
+/* ============================================================
+   EMERGENCY ASSISTANCE
+   ============================================================ */
+
+.emergency-box {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+}
+
+.emergency-box h3 {
+    margin-top: 0;
+}
+
+.emergency-box p {
+    line-height: 1.6;
+}
+
+
+/* ============================================================
+   SOS BUTTON
+   ============================================================ */
+
+.sos-button {
+    margin-top: 10px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sos-button:hover {
+    opacity: 0.9;
+}
+
+
+/* ============================================================
+   HIDDEN ELEMENT
+   ============================================================ */
+
+.hidden {
+    display: none;
+}
