@@ -1,5 +1,8 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel, Field
+
+from app.dependencies import get_current_user
+from database.models import User
 
 from gis.geofencing.risk_geofence import check_location
 
@@ -15,7 +18,6 @@ router = APIRouter(
 # ============================================================
 
 class LocationRequest(BaseModel):
-
     latitude: float = Field(
         ...,
         ge=-90,
@@ -32,11 +34,14 @@ class LocationRequest(BaseModel):
 
 
 # ============================================================
-# RISK CHECK ENDPOINT
+# RISK CHECK
 # ============================================================
 
 @router.post("/check")
-def check_risk(location: LocationRequest):
+def check_risk(
+    location: LocationRequest,
+    current_user: User = Depends(get_current_user)
+):
 
     try:
 

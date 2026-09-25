@@ -1,325 +1,1307 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>SafeHer-AI</title>
+    <title>SafeHer-AI | Women Safety & Risk Assistance</title>
 
-    <link rel="stylesheet" href="style.css">
+    <meta
+        name="description"
+        content="SafeHer-AI is a geo-fenced emergency alert and safety assistance system for women."
+    >
+
+    <link rel="stylesheet" href="/style.css?v=6">
 </head>
 
 <body>
 
-    <!-- =========================================================
-         HEADER
-         ========================================================= -->
+<!-- =========================================================
+     AUTHENTICATION SCREEN
+========================================================= -->
 
-    <header class="header">
+<section id="authScreen" class="auth-screen">
 
-        <div>
-            <h1>SafeHer-AI</h1>
+    <div class="auth-background-glow"></div>
 
-            <p>
-                Geo-Fenced Emergency Alert and Safety Assistance System for Women
-            </p>
+    <div class="auth-container">
+
+        <!-- Brand -->
+        <div class="auth-brand">
+            <div class="auth-logo">🛡️</div>
+
+            <div>
+                <h1>SafeHer-AI</h1>
+                <p>Smart Safety • Intelligent Protection</p>
+            </div>
         </div>
 
-        <div class="status">
-            <span id="statusDot"></span>
-            <span id="statusText">Ready</span>
-        </div>
 
-    </header>
+        <!-- Authentication Card -->
+        <div class="auth-card">
 
-
-    <!-- =========================================================
-         MAIN CONTENT
-         ========================================================= -->
-
-    <main class="container">
-
-
-        <!-- =====================================================
-             LOCATION CHECK
-             ===================================================== -->
-
-        <section class="hero">
-
-            <h2>Location-Based Safety Assessment</h2>
-
-            <p>
-                Check the model-based risk estimate for your current location.
-            </p>
-
-
-            <!-- REAL LOCATION -->
-
-            <button id="locationButton" type="button">
-                📍 Check My Location
-            </button>
-
-
-            <!-- DEMO LOCATION -->
-
-            <button
-                id="demoButton"
-                class="demo-button"
-                type="button">
-
-                🧪 Test HIGH-Risk Location
-
-            </button>
-
-
-            <p class="demo-note">
-                Demo mode uses a verified mapped test location
-                for demonstrating the complete risk-assessment workflow.
-            </p>
-
-        </section>
-
-
-        <!-- =====================================================
-             LOADING
-             ===================================================== -->
-
-        <section id="loading" class="card hidden">
-
-            <div class="loader"></div>
-
-            <p>
-                Detecting your location and checking the risk zone...
-            </p>
-
-        </section>
-
-
-        <!-- =====================================================
-             RISK RESULT
-             ===================================================== -->
-
-        <section id="resultCard" class="card hidden">
-
-            <h2>Location Assessment</h2>
-
-
-            <!-- LOCATION DETAILS -->
-
-            <div class="location-grid">
-
-                <div>
-                    <span class="label">
-                        State
-                    </span>
-
-                    <strong id="state">
-                        -
-                    </strong>
-                </div>
-
-
-                <div>
-                    <span class="label">
-                        District
-                    </span>
-
-                    <strong id="district">
-                        -
-                    </strong>
-                </div>
-
-
-                <div>
-                    <span class="label">
-                        Latitude
-                    </span>
-
-                    <strong id="latitude">
-                        -
-                    </strong>
-                </div>
-
-
-                <div>
-                    <span class="label">
-                        Longitude
-                    </span>
-
-                    <strong id="longitude">
-                        -
-                    </strong>
-                </div>
-
-            </div>
-
-
-            <!-- RISK INFORMATION -->
-
-            <div class="risk-box">
-
-                <span class="label">
-                    Predicted Women-Crime Share
-                </span>
-
-                <strong id="riskShare">
-                    -
-                </strong>
-
-
-                <div
-                    id="riskBand"
-                    class="risk-band">
-
-                    -
-
-                </div>
-
-            </div>
-
-
-            <!-- BACKEND MESSAGE -->
-
-            <p
-                id="resultMessage"
-                class="message">
-            </p>
-
-
-            <!-- =================================================
-                 RISK WARNING
-                 ================================================= -->
-
-            <div
-                id="warningBox"
-                class="warning-box hidden">
-
-                <h3 id="warningTitle">
-                    Safety Information
-                </h3>
-
-                <p id="warningMessage">
-                </p>
-
-            </div>
-
-
-            <!-- =================================================
-                 EMERGENCY ASSISTANCE
-                 ================================================= -->
-
-            <div
-                id="emergencyBox"
-                class="emergency-box hidden">
-
-                <h3>
-                    🆘 Emergency Assistance
-                </h3>
-
-                <p>
-                    If you feel unsafe or are facing an emergency,
-                    you can use the emergency assistance option.
-                </p>
-
+            <!-- Auth Tabs -->
+            <div class="auth-tabs">
 
                 <button
-                    id="sosButton"
-                    class="sos-button"
-                    type="button">
+                    type="button"
+                    id="loginTab"
+                    class="auth-tab active"
+                    onclick="showLoginForm()"
+                >
+                    Login
+                </button>
 
-                    🆘 SOS
-
+                <button
+                    type="button"
+                    id="registerTab"
+                    class="auth-tab"
+                    onclick="showRegisterForm()"
+                >
+                    Register
                 </button>
 
             </div>
 
-        </section>
+
+            <!-- =================================================
+                 LOGIN FORM
+            ================================================== -->
+
+            <div id="loginFormContainer" class="auth-form-container">
+
+                <div class="auth-heading">
+                    <h2>Welcome Back</h2>
+
+                    <p>
+                        Login to access your SafeHer-AI safety dashboard.
+                    </p>
+                </div>
 
 
-        <!-- =====================================================
-             LOCATION NOT MAPPED
-             ===================================================== -->
+                <form
+                    id="loginForm"
+                    onsubmit="loginUser(event)"
+                >
 
-        <section
-            id="outsideCard"
-            class="card hidden">
+                    <div class="form-group">
 
-            <h2>
-                Location Not Mapped
-            </h2>
+                        <label for="loginEmail">
+                            Email Address
+                        </label>
 
-            <p id="outsideMessage">
+                        <input
+                            type="email"
+                            id="loginEmail"
+                            name="email"
+                            placeholder="Enter your email"
+                            autocomplete="email"
+                            required
+                        >
 
-                This location is outside the currently mapped
-                SafeHer-AI risk zones.
+                    </div>
 
+
+                    <div class="form-group">
+
+                        <label for="loginPassword">
+                            Password
+                        </label>
+
+                        <input
+                            type="password"
+                            id="loginPassword"
+                            name="password"
+                            placeholder="Enter your password"
+                            autocomplete="current-password"
+                            required
+                        >
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="auth-submit-button"
+                        id="loginButton"
+                    >
+                        🔐 Login
+                    </button>
+
+                </form>
+
+
+                <div class="auth-switch">
+
+                    <span>
+                        Don't have an account?
+                    </span>
+
+                    <button
+                        type="button"
+                        onclick="showRegisterForm()"
+                    >
+                        Create Account
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 REGISTER FORM
+            ================================================== -->
+
+            <div
+                id="registerFormContainer"
+                class="auth-form-container"
+                style="display: none;"
+            >
+
+                <div class="auth-heading">
+
+                    <h2>Create Account</h2>
+
+                    <p>
+                        Register to use SafeHer-AI safety services.
+                    </p>
+
+                </div>
+
+
+                <form
+                    id="registerForm"
+                    onsubmit="registerUser(event)"
+                >
+
+                    <div class="form-group">
+
+                        <label for="registerName">
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="registerName"
+                            name="full_name"
+                            placeholder="Enter your full name"
+                            autocomplete="name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="registerEmail">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="registerEmail"
+                            name="email"
+                            placeholder="Enter your email"
+                            autocomplete="email"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="registerPhone">
+                            Phone Number
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="registerPhone"
+                            name="phone"
+                            placeholder="Enter your phone number"
+                            autocomplete="tel"
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="registerPassword">
+                            Password
+                        </label>
+
+                        <input
+                            type="password"
+                            id="registerPassword"
+                            name="password"
+                            placeholder="Minimum 6 characters"
+                            autocomplete="new-password"
+                            minlength="6"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="registerConfirmPassword">
+                            Confirm Password
+                        </label>
+
+                        <input
+                            type="password"
+                            id="registerConfirmPassword"
+                            name="confirm_password"
+                            placeholder="Re-enter your password"
+                            autocomplete="new-password"
+                            minlength="6"
+                            required
+                        >
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="auth-submit-button"
+                        id="registerButton"
+                    >
+                        ✨ Create Account
+                    </button>
+
+                </form>
+
+
+                <div class="auth-switch">
+
+                    <span>
+                        Already have an account?
+                    </span>
+
+                    <button
+                        type="button"
+                        onclick="showLoginForm()"
+                    >
+                        Login
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Authentication Message -->
+
+            <div
+                id="authMessage"
+                class="auth-message"
+                style="display: none;"
+            ></div>
+
+
+            <!-- Demo Mode -->
+
+            <div class="demo-login-section">
+
+                <div class="demo-divider">
+                    <span>OR</span>
+                </div>
+
+                <button
+                    type="button"
+                    class="demo-login-button"
+                    onclick="continueAsDemo()"
+                >
+                    🎯 Continue in Demo Mode
+                </button>
+
+                <p>
+                    Demo mode allows you to explore the safety dashboard
+                    without creating an account.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Authentication Footer -->
+
+        <div class="auth-footer">
+
+            <span>🛡️</span>
+
+            <span>
+                Geo-Fenced Emergency Alert and Safety Assistance System for Women
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     MAIN APPLICATION
+========================================================= -->
+
+<div id="appShell" style="display: none;">
+
+    <!-- =====================================================
+         NAVIGATION BAR
+    ====================================================== -->
+
+    <nav class="navbar">
+
+        <div class="nav-brand">
+
+            <div class="nav-logo">
+                🛡️
+            </div>
+
+            <div>
+
+                <div class="brand-title">
+                    SafeHer-AI
+                </div>
+
+                <div class="brand-subtitle">
+                    Smart Safety Assistance
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="nav-right">
+
+            <div
+                id="connectionStatus"
+                class="connection-status"
+            >
+                <span class="status-dot"></span>
+                System Active
+            </div>
+
+
+            <div
+                id="userProfileArea"
+                class="user-profile-area"
+            >
+
+                <span id="userName">
+                    User
+                </span>
+
+                <button
+                    type="button"
+                    id="logoutButton"
+                    class="logout-button"
+                    onclick="logoutUser()"
+                >
+                    Logout
+                </button>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- =====================================================
+         HERO SECTION
+    ====================================================== -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <div class="hero-badge">
+                🛡️ AI-Powered Women Safety
+            </div>
+
+
+            <h1>
+                Know Your
+                <span>Safety Zone</span>
+                Before You Go
+            </h1>
+
+
+            <p>
+                SafeHer-AI combines historical crime data,
+                machine learning, GIS and geofencing to provide
+                location-based safety risk information.
             </p>
 
-        </section>
+
+            <div class="hero-buttons">
+
+                <button
+                    type="button"
+                    class="primary-button"
+                    onclick="checkMyLocation()"
+                >
+                    📍 Check My Location
+                </button>
 
 
-        <!-- =====================================================
-             ERROR
-             ===================================================== -->
+                <button
+                    type="button"
+                    class="secondary-button"
+                    onclick="runDemoLocation()"
+                >
+                    🎯 Try Demo Location
+                </button>
+
+            </div>
+
+
+            <div class="hero-note">
+
+                <span>🔒</span>
+
+                <span>
+                    Your location is used only for safety assessment.
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+    ====================================================== -->
+
+    <main class="main-container">
+
+
+        <!-- =================================================
+             LOADING
+        ================================================== -->
 
         <section
-            id="errorCard"
-            class="card error hidden">
+            id="loading"
+            class="loading-card"
+            style="display: none;"
+        >
 
-            <h2>
-                Unable to Check Location
-            </h2>
-
-            <p id="errorMessage">
-            </p>
-
-        </section>
-
-
-        <!-- =====================================================
-             INFORMATION
-             ===================================================== -->
-
-        <section class="info-card">
+            <div class="loader"></div>
 
             <h3>
-                About the Risk Estimate
+                Analysing Your Location
             </h3>
 
             <p>
-
-                The displayed risk band is a model-based estimate
-                derived from historical crime data and mapped GIS
-                boundaries. It should not be interpreted as an
-                absolute measure of personal safety.
-
+                Checking the GIS risk layer and geofencing data...
             </p>
+
+        </section>
+
+
+
+        <!-- =================================================
+             RISK RESULT DASHBOARD
+        ================================================== -->
+
+        <section
+            id="result"
+            class="dashboard"
+            style="display: none;"
+        >
+
+            <!-- Dashboard Header -->
+
+            <div class="dashboard-header">
+
+                <div>
+
+                    <div class="section-label">
+                        LOCATION RISK ASSESSMENT
+                    </div>
+
+                    <h2>
+                        Your Safety Zone
+                    </h2>
+
+                </div>
+
+
+                <div
+                    id="riskBand"
+                    class="risk-badge"
+                >
+                    —
+                </div>
+
+            </div>
+
+
+
+            <!-- Risk Overview -->
+
+            <div class="risk-overview">
+
+
+                <!-- Risk Gauge -->
+
+                <div class="gauge-card">
+
+                    <div class="gauge-container">
+
+                        <svg
+                            class="risk-gauge"
+                            viewBox="0 0 220 220"
+                        >
+
+                            <circle
+                                class="gauge-background"
+                                cx="110"
+                                cy="110"
+                                r="90"
+                            ></circle>
+
+                            <circle
+                                id="gaugeProgress"
+                                class="gauge-progress"
+                                cx="110"
+                                cy="110"
+                                r="90"
+                            ></circle>
+
+                        </svg>
+
+
+                        <div class="gauge-center">
+
+                            <div
+                                id="riskIcon"
+                                class="risk-icon"
+                            >
+                                🛡️
+                            </div>
+
+                            <div
+                                id="riskValue"
+                                class="risk-value"
+                            >
+                                —
+                            </div>
+
+                            <div class="risk-label">
+                                Risk Share
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        id="riskMessage"
+                        class="risk-message"
+                    >
+                        Waiting for location assessment...
+                    </div>
+
+
+                    <div
+                        id="riskTime"
+                        class="risk-time"
+                    ></div>
+
+                </div>
+
+
+
+                <!-- Location Details -->
+
+                <div class="location-card">
+
+                    <div class="card-title">
+                        📍 Location Information
+                    </div>
+
+
+                    <div class="location-grid">
+
+                        <div class="location-item">
+
+                            <span class="location-label">
+                                State / UT
+                            </span>
+
+                            <span
+                                id="stateValue"
+                                class="location-value"
+                            >
+                                —
+                            </span>
+
+                        </div>
+
+
+                        <div class="location-item">
+
+                            <span class="location-label">
+                                District
+                            </span>
+
+                            <span
+                                id="districtValue"
+                                class="location-value"
+                            >
+                                —
+                            </span>
+
+                        </div>
+
+
+                        <div class="location-item">
+
+                            <span class="location-label">
+                                Latitude
+                            </span>
+
+                            <span
+                                id="latitudeValue"
+                                class="location-value"
+                            >
+                                —
+                            </span>
+
+                        </div>
+
+
+                        <div class="location-item">
+
+                            <span class="location-label">
+                                Longitude
+                            </span>
+
+                            <span
+                                id="longitudeValue"
+                                class="location-value"
+                            >
+                                —
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        id="zoneText"
+                        class="zone-status"
+                    >
+                        Checking geofenced safety zone...
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 WARNING BOX
+            ================================================== -->
+
+            <div
+                id="warningBox"
+                class="warning-box"
+                style="display: none;"
+            >
+
+                <div class="warning-icon">
+                    ⚠️
+                </div>
+
+                <div class="warning-content">
+
+                    <h3>
+                        Safety Warning
+                    </h3>
+
+                    <p id="warningMessage">
+                        Please remain alert in this location.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 EMERGENCY / SOS
+            ================================================== -->
+
+            <div
+                id="emergencyBox"
+                class="emergency-box"
+            >
+
+                <div class="emergency-content">
+
+                    <div class="emergency-icon">
+                        🚨
+                    </div>
+
+
+                    <div>
+
+                        <h3>
+                            Emergency Assistance
+                        </h3>
+
+                        <p>
+                            If you feel unsafe or require immediate
+                            assistance, trigger an SOS event.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <button
+                    type="button"
+                    id="sosButton"
+                    class="sos-button"
+                    onclick="triggerSOS()"
+                >
+                    🚨 SEND SOS
+                </button>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 SAFETY TIPS
+            ================================================== -->
+
+            <div class="tips-section">
+
+                <div class="section-label">
+                    SAFETY GUIDANCE
+                </div>
+
+                <h2>
+                    Safety Tips
+                </h2>
+
+
+                <div class="tips-grid">
+
+                    <div class="tip-card">
+
+                        <div class="tip-icon">
+                            📱
+                        </div>
+
+                        <h3>
+                            Keep Your Phone Ready
+                        </h3>
+
+                        <p>
+                            Keep your phone charged and accessible
+                            when travelling.
+                        </p>
+
+                    </div>
+
+
+                    <div class="tip-card">
+
+                        <div class="tip-icon">
+                            👥
+                        </div>
+
+                        <h3>
+                            Stay Connected
+                        </h3>
+
+                        <p>
+                            Inform trusted contacts about your
+                            travel plans when necessary.
+                        </p>
+
+                    </div>
+
+
+                    <div class="tip-card">
+
+                        <div class="tip-icon">
+                            🚶
+                        </div>
+
+                        <h3>
+                            Prefer Safer Routes
+                        </h3>
+
+                        <p>
+                            Consider well-lit and populated routes
+                            when travelling.
+                        </p>
+
+                    </div>
+
+
+                    <div class="tip-card">
+
+                        <div class="tip-icon">
+                            🚨
+                        </div>
+
+                        <h3>
+                            Use SOS When Needed
+                        </h3>
+
+                        <p>
+                            Trigger emergency assistance if you
+                            feel unsafe.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             OUTSIDE COVERAGE
+        ================================================== -->
+
+        <section
+            id="outsideCard"
+            class="outside-card"
+            style="display: none;"
+        >
+
+            <div class="outside-icon">
+                🗺️
+            </div>
+
+
+            <h2>
+                Location Outside Current Coverage
+            </h2>
+
+
+            <p id="outsideMessage">
+                The selected location is currently outside the
+                available SafeHer-AI GIS risk layer.
+            </p>
+
+
+            <button
+                type="button"
+                class="secondary-button"
+                onclick="runDemoLocation()"
+            >
+                🎯 Try Demo Location
+            </button>
+
+        </section>
+
+
+
+        <!-- =================================================
+             ERROR CARD
+        ================================================== -->
+
+        <section
+            id="errorCard"
+            class="error-card"
+            style="display: none;"
+        >
+
+            <div class="error-icon">
+                ⚠️
+            </div>
+
+
+            <h2>
+                Something Went Wrong
+            </h2>
+
+
+            <p id="errorMessage">
+                Unable to complete the risk assessment.
+            </p>
+
+
+            <button
+                type="button"
+                class="secondary-button"
+                onclick="checkMyLocation()"
+            >
+                Try Again
+            </button>
+
+        </section>
+
+
+
+        <!-- =================================================
+             HOW SAFEHER-AI WORKS
+        ================================================== -->
+
+        <section class="how-it-works">
+
+            <div class="section-label">
+                SYSTEM ARCHITECTURE
+            </div>
+
+            <h2>
+                How SafeHer-AI Works
+            </h2>
+
+            <p class="section-description">
+                The system combines historical crime information,
+                machine learning, GIS and geofencing to generate
+                a location-based risk estimate.
+            </p>
+
+
+            <div class="pipeline">
+
+
+                <!-- Step 1 -->
+
+                <div class="pipeline-step">
+
+                    <div class="pipeline-number">
+                        01
+                    </div>
+
+                    <div class="pipeline-icon">
+                        📊
+                    </div>
+
+                    <h3>
+                        Crime Data
+                    </h3>
+
+                    <p>
+                        Historical district-level crime records
+                        are collected and preprocessed.
+                    </p>
+
+                </div>
+
+
+                <div class="pipeline-arrow">
+                    →
+                </div>
+
+
+                <!-- Step 2 -->
+
+                <div class="pipeline-step">
+
+                    <div class="pipeline-number">
+                        02
+                    </div>
+
+                    <div class="pipeline-icon">
+                        🤖
+                    </div>
+
+                    <h3>
+                        AI Models
+                    </h3>
+
+                    <p>
+                        K-Means clustering and a temporal MLP
+                        model analyse crime patterns.
+                    </p>
+
+                </div>
+
+
+                <div class="pipeline-arrow">
+                    →
+                </div>
+
+
+                <!-- Step 3 -->
+
+                <div class="pipeline-step">
+
+                    <div class="pipeline-number">
+                        03
+                    </div>
+
+                    <div class="pipeline-icon">
+                        🗺️
+                    </div>
+
+                    <h3>
+                        GIS Risk Layer
+                    </h3>
+
+                    <p>
+                        Predicted risk information is associated
+                        with geographic district boundaries.
+                    </p>
+
+                </div>
+
+
+                <div class="pipeline-arrow">
+                    →
+                </div>
+
+
+                <!-- Step 4 -->
+
+                <div class="pipeline-step">
+
+                    <div class="pipeline-number">
+                        04
+                    </div>
+
+                    <div class="pipeline-icon">
+                        📍
+                    </div>
+
+                    <h3>
+                        Geofencing
+                    </h3>
+
+                    <p>
+                        Your coordinates are checked against the
+                        mapped risk zones.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             TECHNOLOGIES
+        ================================================== -->
+
+        <section class="technology-section">
+
+            <div class="section-label">
+                TECHNOLOGY STACK
+            </div>
+
+            <h2>
+                Technologies Used
+            </h2>
+
+
+            <div class="technology-grid">
+
+
+                <div class="technology-card">
+
+                    <div class="technology-icon">
+                        🐍
+                    </div>
+
+                    <h3>
+                        Python
+                    </h3>
+
+                    <p>
+                        Data processing and machine learning
+                    </p>
+
+                </div>
+
+
+                <div class="technology-card">
+
+                    <div class="technology-icon">
+                        🧠
+                    </div>
+
+                    <h3>
+                        Machine Learning
+                    </h3>
+
+                    <p>
+                        K-Means clustering and MLP regression
+                    </p>
+
+                </div>
+
+
+                <div class="technology-card">
+
+                    <div class="technology-icon">
+                        🗺️
+                    </div>
+
+                    <h3>
+                        GIS
+                    </h3>
+
+                    <p>
+                        Geographic risk visualization and mapping
+                    </p>
+
+                </div>
+
+
+                <div class="technology-card">
+
+                    <div class="technology-icon">
+                        ⚡
+                    </div>
+
+                    <h3>
+                        FastAPI
+                    </h3>
+
+                    <p>
+                        Backend APIs and application services
+                    </p>
+
+                </div>
+
+
+                <div class="technology-card">
+
+                    <div class="technology-icon">
+                        🗄️
+                    </div>
+
+                    <h3>
+                        SQLite
+                    </h3>
+
+                    <p>
+                        User authentication and application data
+                    </p>
+
+                </div>
+
+
+                <div class="technology-card">
+
+                    <div class="technology-icon">
+                        🌐
+                    </div>
+
+                    <h3>
+                        Web Technologies
+                    </h3>
+
+                    <p>
+                        HTML, CSS and JavaScript frontend
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             DISCLAIMER
+        ================================================== -->
+
+        <section class="disclaimer">
+
+            <div class="disclaimer-icon">
+                ℹ️
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Important Information
+                </h3>
+
+                <p>
+                    SafeHer-AI provides a data-driven risk estimate
+                    based on historical crime information and the
+                    available geographic coverage. A risk classification
+                    does not represent absolute safety or danger.
+                    Users should exercise personal judgment and follow
+                    appropriate safety practices.
+                </p>
+
+            </div>
 
         </section>
 
     </main>
 
 
-    <!-- =========================================================
-         FOOTER
-         ========================================================= -->
 
-    <footer>
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="footer">
+
+        <div class="footer-brand">
+
+            <span class="footer-logo">
+                🛡️
+            </span>
+
+            <span>
+                SafeHer-AI
+            </span>
+
+        </div>
+
 
         <p>
-            SafeHer-AI • Geo-Fenced Emergency Alert and Safety Assistance System
+            Geo-Fenced Emergency Alert and Safety Assistance System for Women
+        </p>
+
+
+        <p class="footer-small">
+            AI • GIS • Geofencing • Emergency Assistance
         </p>
 
     </footer>
 
+</div>
 
-    <!-- =========================================================
-         JAVASCRIPT
-         ========================================================= -->
 
-    <script src="app.js?v=2"></script>
+
+<!-- =========================================================
+     JAVASCRIPT
+========================================================= -->
+
+<script src="/app.js?v=6"></script>
 
 </body>
-
 </html>

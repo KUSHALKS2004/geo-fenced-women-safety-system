@@ -1,0 +1,2 @@
+gis/data/district_nwic.GeoJSON filter=lfs diff=lfs merge=lfs -text
+gis/map/data/safeher_2014_risk_layer.geojson filter=lfs diff=lfs merge=lfs -text
